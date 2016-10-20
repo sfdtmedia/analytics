@@ -1,9 +1,11 @@
 # For development, when using `jekyll serve`
-url: http://localhost:4000
+url: http://city05.sfgov.org:4000
 # For development, when using:
 #   analytics --output=[dir]
 # and running from [dir]:
 #   serve
-data_url: /fake-data
+data_url: /data
 
-data_dir: /fake-data
+data_dir: /data
+
+

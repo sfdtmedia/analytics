@@ -23,7 +23,7 @@ defaults:
       type: agencies
     values:
       layout: default
-
+    
 collections:
   agencies:
     output: true
@@ -33,24 +33,24 @@ collections:
     permalink: /:path/data/
 
 # Site title and description
-title: "analytics.usa.gov | The US government's web traffic."
-description: "Official data on web traffic to hundreds of US federal government websites. Published by the Digital Analytics Program."
+title: "analytics.sfgov.org | The San Francisco government's web traffic."
+description: "Official data on web traffic to San Francisco government websites. Published by the SF Digital Service and Products team."
 
 # Site's own URL
-url: https://analytics.usa.gov
+url: http://sfgov.org
 
 # Default dropdown title, will not appear if there are no sub-pages
 dropdown_title: All Participating Websites
 
 # Default data url
-data_url: https://analytics.usa.gov/data/live
+data_url: /data
 
 # GitHub information
 org_name: GSA
 repo_name: analytics.usa.gov
 
 # twitter information
-twitter: usgsa
+twitter: sfgov
 
 sass:
   sass_dir: sass

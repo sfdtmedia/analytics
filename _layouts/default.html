@@ -13,13 +13,14 @@
         <div class="inner clearfix">
             <h1>
               <a href="/" class="external-link">
-                <strong>analytics</strong>.usa.gov
+                <strong>SFGov analytics</strong>
               </a>
             </h1>
             <ul class="links">
               <li><a href="#explanation">About <span class="sm-hide">this site</span></a></li>
-              <li><a href="{{ site.url }}{% if page.slug %}/{{ page.slug }}{% endif %}/data/">Data</a></li>
+            <!--  <li><a href="/sfgov-data">Data</a></li> -->
             </ul>
+            {% comment %}
             {% assign agencies = site.agencies | sort:"name"  %}
             {% if agencies.size > 0 %}
               {% unless page.url contains 'data' %}
@@ -36,6 +37,7 @@
                 </div>
               {% endunless %}
             {% endif %}
+            {% endcomment %}
         </div>
     </header>
     <div class="container">

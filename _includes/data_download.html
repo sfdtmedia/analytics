@@ -9,6 +9,7 @@
       {% endif %}
       <section class="width-two-thirds">
         <h1>Download the data</h1>
+          {% comment %}
         {% assign agencies = site.agencies | sort:"name"  %}
         {% if agencies.size > 0 %}
         <div class="agency-selector-wrap">
@@ -24,6 +25,7 @@
         </div>
         {% endif %}
         <h2>Visits to and traffic sources for {% if entity == 'government' %}all participating agencies{% else %}{{ entity }}{% endif %}</h2>
+       {% endcomment %}
         <table class="usa-table-borderless downloads">
           <thead>
             <tr>

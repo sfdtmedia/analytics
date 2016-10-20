@@ -28,12 +28,12 @@
           data-source="{{ data_url }}/realtime.json"
           data-refresh="15">
           <h2 id="current_visitors" class="data">...</h2>
-          <div class="chart_subtitle">people on {{ entity }} websites now</div>
+          <div class="chart_subtitle">people on sfgov websites now</div>
         </section>
 
         <section class="section_headline visits_today">
           <h3>Visits Today</h3>
-          <h4>Eastern Time</h4>
+          <h4>Pacific Time</h4>
         </section>
         <section id="time_series"
           data-block="today"
@@ -47,8 +47,10 @@
           <h3>Visits in the Past 90 Days</h3>
         </section>
 
-        <section class="section_subheadline">
-          There were <span id="total_visitors" class="data">...</span> visits over the past 90 days.
+        <section class="section_subheadline" id="pageviews"
+          data-block="pageviews"
+          data-source="{{ data_url }}/pageviews.json">
+          There were <span id="total_visitors" class="data">...</span> pageviews over the past 90 days.
         </section>
 
         <section id="devices" class="three_column"
@@ -59,10 +61,6 @@
             <div class="data bar-chart">
             </div>
           </figure>
-
-          <p>
-            Based on rough network segmentation data, we estimate that <strong>less than 5%</strong> of all traffic across all agencies comes from US federal government networks.
-          </p>
 
           <p>
             Much more detailed data is available in <strong><a href="data/">downloadable CSV and JSON</a></strong>. This includes data on combined browser and OS usage.
@@ -172,17 +170,19 @@
 
           <figure class="top-pages" id="top-pages-7-days" role="tabpanel"
             data-block="top-pages"
-            data-source="{{ data_url }}/top-domains-7-days.json">
-            <h5><em>Visits over the last week to <strong>domains</strong>, including traffic to all pages within that domain.</em></h5>
+            data-source="{{ data_url }}/top-pages-7-days.json">
+            <h5><em>Most active pages over the past week, ranked by number of page visits. 
+            <a href="{{ data_url }}/top-pages-7-days.csv">Download the full dataset.
+            </em></h5>
             <div class="data bar-chart">
             </div>
           </figure>
 
           <figure class="top-pages" id="top-pages-30-days" role="tabpanel"
             data-block="top-pages"
-            data-source="{{ data_url }}/top-domains-30-days.json">
+            data-source="{{ data_url }}/top-pages-30-days.json">
             <h5><em>
-              Visits over the last month to <strong>domains</strong>, including traffic to all pages within that domain. {% if entity == "government" %}We only count pages with at least 1,000 visits in the last month.{% endif %}
+              Most active pages over the last 30 days, ranked by number of page visits. 
               <a href="{{ data_url }}/top-domains-30-days.csv">Download the full dataset.</a>
             </em></h5>
             <div class="data bar-chart">
