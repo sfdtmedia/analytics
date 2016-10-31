@@ -38,13 +38,14 @@ $mobile-small-screen:  new-breakpoint(max-width  500px   1);
 // Fonts & Colors:
 
 $red: #981b1e;
-$light-blue: #0071bc;
+$light-blue: #0d84e9;
 $dark-blue: #112e51;
 $light-gray: #f9f9f9;
 $uswds-light-gray: #aeb0b5;
 $gray: #e4e4e4; // used only for borders
 $dark-gray: #323a45;//#222;
 $white: #fff;
+$bportal-gray:#333333; //business portal gray
 
 $background-color: $light-gray;
 $container-background: $white;
@@ -171,7 +172,7 @@ ul li:before {
 */
 
 header {
-  background: $dark-blue;
+  background: #444444;
   color: $white;
   border-bottom: 6px solid $light-blue;
 
@@ -344,7 +345,6 @@ section {
 .visits_today {
   h3 {
     display: block;
-    height: 2.5rem;
     margin-bottom: 0;
   }
   h4 {
@@ -758,4 +758,26 @@ figure figure {
   &.loading {
     opacity: .8;
   }
+}
+
+
+h3{
+   font-family: "Droid Serif";
+   font-size:1.75em;
+   color:black;
+}
+
+p{
+    font-family: "Helvetica";
+    font-size:1.35em;
+    color:#878787;
+}
+
+.bportalfooter{
+    background:$bportal-gray;
+}
+
+.bportalfooter td{
+   padding:0;
+   border:0;
 }

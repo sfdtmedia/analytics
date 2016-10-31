@@ -275,7 +275,7 @@
               '<span class="name"><a class="top-download-page" target="_blank" href=http://', d.page, '>', d.page_title, '</a></span> ',
               '<span class="domain" >', formatURL(d.page), '</span> ',
               '<span class="divider">/</span> ',
-              '<span class="filename"><a class="top-download-file" target="_blank" href=', d.event_label, '>',
+              '<span class="filename"><a class="top-download-file" target="_blank" href=http://',  formatURL(d.page)+d.event_label, '>',
               formatFile(d.event_label), '</a></span>'
             ].join('');
           })
