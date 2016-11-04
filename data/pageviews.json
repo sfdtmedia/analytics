@@ -1,0 +1,389 @@
+{
+  "name": "pageviews",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date",
+    "metrics": [
+      "ga:pageviews"
+    ],
+    "sort": [
+      "ga:date"
+    ],
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Visitors",
+    "description": "90 days of visits for all sites."
+  },
+  "data": [
+    {
+      "date": "2016-07-16",
+      "pageviews": "37878"
+    },
+    {
+      "date": "2016-07-17",
+      "pageviews": "42733"
+    },
+    {
+      "date": "2016-07-18",
+      "pageviews": "107549"
+    },
+    {
+      "date": "2016-07-19",
+      "pageviews": "106286"
+    },
+    {
+      "date": "2016-07-20",
+      "pageviews": "104227"
+    },
+    {
+      "date": "2016-07-21",
+      "pageviews": "100731"
+    },
+    {
+      "date": "2016-07-22",
+      "pageviews": "91571"
+    },
+    {
+      "date": "2016-07-23",
+      "pageviews": "43726"
+    },
+    {
+      "date": "2016-07-24",
+      "pageviews": "45442"
+    },
+    {
+      "date": "2016-07-25",
+      "pageviews": "113407"
+    },
+    {
+      "date": "2016-07-26",
+      "pageviews": "111728"
+    },
+    {
+      "date": "2016-07-27",
+      "pageviews": "105843"
+    },
+    {
+      "date": "2016-07-28",
+      "pageviews": "104268"
+    },
+    {
+      "date": "2016-07-29",
+      "pageviews": "97047"
+    },
+    {
+      "date": "2016-07-30",
+      "pageviews": "40801"
+    },
+    {
+      "date": "2016-07-31",
+      "pageviews": "43360"
+    },
+    {
+      "date": "2016-08-01",
+      "pageviews": "109454"
+    },
+    {
+      "date": "2016-08-02",
+      "pageviews": "104954"
+    },
+    {
+      "date": "2016-08-03",
+      "pageviews": "95076"
+    },
+    {
+      "date": "2016-08-04",
+      "pageviews": "96760"
+    },
+    {
+      "date": "2016-08-05",
+      "pageviews": "88789"
+    },
+    {
+      "date": "2016-08-06",
+      "pageviews": "40544"
+    },
+    {
+      "date": "2016-08-07",
+      "pageviews": "43044"
+    },
+    {
+      "date": "2016-08-08",
+      "pageviews": "106789"
+    },
+    {
+      "date": "2016-08-09",
+      "pageviews": "108729"
+    },
+    {
+      "date": "2016-08-10",
+      "pageviews": "96834"
+    },
+    {
+      "date": "2016-08-11",
+      "pageviews": "98220"
+    },
+    {
+      "date": "2016-08-12",
+      "pageviews": "86303"
+    },
+    {
+      "date": "2016-08-13",
+      "pageviews": "37108"
+    },
+    {
+      "date": "2016-08-14",
+      "pageviews": "38416"
+    },
+    {
+      "date": "2016-08-15",
+      "pageviews": "106384"
+    },
+    {
+      "date": "2016-08-16",
+      "pageviews": "103035"
+    },
+    {
+      "date": "2016-08-17",
+      "pageviews": "96491"
+    },
+    {
+      "date": "2016-08-18",
+      "pageviews": "94621"
+    },
+    {
+      "date": "2016-08-19",
+      "pageviews": "88502"
+    },
+    {
+      "date": "2016-08-20",
+      "pageviews": "40771"
+    },
+    {
+      "date": "2016-08-21",
+      "pageviews": "44689"
+    },
+    {
+      "date": "2016-08-22",
+      "pageviews": "110001"
+    },
+    {
+      "date": "2016-08-23",
+      "pageviews": "119952"
+    },
+    {
+      "date": "2016-08-24",
+      "pageviews": "109942"
+    },
+    {
+      "date": "2016-08-25",
+      "pageviews": "111341"
+    },
+    {
+      "date": "2016-08-26",
+      "pageviews": "101926"
+    },
+    {
+      "date": "2016-08-27",
+      "pageviews": "44128"
+    },
+    {
+      "date": "2016-08-28",
+      "pageviews": "48763"
+    },
+    {
+      "date": "2016-08-29",
+      "pageviews": "126914"
+    },
+    {
+      "date": "2016-08-30",
+      "pageviews": "130891"
+    },
+    {
+      "date": "2016-08-31",
+      "pageviews": "142002"
+    },
+    {
+      "date": "2016-09-01",
+      "pageviews": "110037"
+    },
+    {
+      "date": "2016-09-02",
+      "pageviews": "95537"
+    },
+    {
+      "date": "2016-09-03",
+      "pageviews": "41632"
+    },
+    {
+      "date": "2016-09-04",
+      "pageviews": "38095"
+    },
+    {
+      "date": "2016-09-05",
+      "pageviews": "45479"
+    },
+    {
+      "date": "2016-09-06",
+      "pageviews": "110328"
+    },
+    {
+      "date": "2016-09-07",
+      "pageviews": "107947"
+    },
+    {
+      "date": "2016-09-08",
+      "pageviews": "101193"
+    },
+    {
+      "date": "2016-09-09",
+      "pageviews": "93510"
+    },
+    {
+      "date": "2016-09-10",
+      "pageviews": "39021"
+    },
+    {
+      "date": "2016-09-11",
+      "pageviews": "41296"
+    },
+    {
+      "date": "2016-09-12",
+      "pageviews": "105901"
+    },
+    {
+      "date": "2016-09-13",
+      "pageviews": "104568"
+    },
+    {
+      "date": "2016-09-14",
+      "pageviews": "100975"
+    },
+    {
+      "date": "2016-09-15",
+      "pageviews": "96216"
+    },
+    {
+      "date": "2016-09-16",
+      "pageviews": "85552"
+    },
+    {
+      "date": "2016-09-17",
+      "pageviews": "40134"
+    },
+    {
+      "date": "2016-09-18",
+      "pageviews": "43050"
+    },
+    {
+      "date": "2016-09-19",
+      "pageviews": "112370"
+    },
+    {
+      "date": "2016-09-20",
+      "pageviews": "104449"
+    },
+    {
+      "date": "2016-09-21",
+      "pageviews": "99796"
+    },
+    {
+      "date": "2016-09-22",
+      "pageviews": "103693"
+    },
+    {
+      "date": "2016-09-23",
+      "pageviews": "94484"
+    },
+    {
+      "date": "2016-09-24",
+      "pageviews": "39431"
+    },
+    {
+      "date": "2016-09-25",
+      "pageviews": "39587"
+    },
+    {
+      "date": "2016-09-26",
+      "pageviews": "105388"
+    },
+    {
+      "date": "2016-09-27",
+      "pageviews": "104435"
+    },
+    {
+      "date": "2016-09-28",
+      "pageviews": "102474"
+    },
+    {
+      "date": "2016-09-29",
+      "pageviews": "97515"
+    },
+    {
+      "date": "2016-09-30",
+      "pageviews": "87891"
+    },
+    {
+      "date": "2016-10-01",
+      "pageviews": "39321"
+    },
+    {
+      "date": "2016-10-02",
+      "pageviews": "44267"
+    },
+    {
+      "date": "2016-10-03",
+      "pageviews": "110816"
+    },
+    {
+      "date": "2016-10-04",
+      "pageviews": "111940"
+    },
+    {
+      "date": "2016-10-05",
+      "pageviews": "104911"
+    },
+    {
+      "date": "2016-10-06",
+      "pageviews": "107892"
+    },
+    {
+      "date": "2016-10-07",
+      "pageviews": "93629"
+    },
+    {
+      "date": "2016-10-08",
+      "pageviews": "39304"
+    },
+    {
+      "date": "2016-10-09",
+      "pageviews": "40817"
+    },
+    {
+      "date": "2016-10-10",
+      "pageviews": "75967"
+    },
+    {
+      "date": "2016-10-11",
+      "pageviews": "106880"
+    },
+    {
+      "date": "2016-10-12",
+      "pageviews": "116515"
+    },
+    {
+      "date": "2016-10-13",
+      "pageviews": "106311"
+    }
+  ],
+  "totals": {
+    "visits": 7658524,
+    "start_date": "2016-07-16",
+    "end_date": "2016-10-13"
+  },
+  "taken_at": "2016-10-14T17:07:35.351Z"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "second-level-domains",
+  "query": {
+    "start-date": "14daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:hostname"
+    ],
+    "filters": "ga:sessions>4;ga:hostname=~^[^\\.]+\\.[^\\.]+$",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Participating second-level domains.",
+    "description": "Participating second-level domains over the last 2 weeks."
+  },
+  "data": [
+    {
+      "domain": "dcyf.org"
+    },
+    {
+      "domain": "filmsf.org"
+    },
+    {
+      "domain": "give2sf.org"
+    },
+    {
+      "domain": "oewd.org"
+    },
+    {
+      "domain": "sanfranciscopolice.org"
+    },
+    {
+      "domain": "sf-fire.org"
+    },
+    {
+      "domain": "sf-hrc.org"
+    },
+    {
+      "domain": "sf-planning.org"
+    },
+    {
+      "domain": "sfbos.org"
+    },
+    {
+      "domain": "sfcoit.org"
+    },
+    {
+      "domain": "sfcontroller.org"
+    },
+    {
+      "domain": "sfdbi.org"
+    },
+    {
+      "domain": "sfdem.org"
+    },
+    {
+      "domain": "sfdhr.org"
+    },
+    {
+      "domain": "sfdistrictattorney.org"
+    },
+    {
+      "domain": "sfgov.org"
+    },
+    {
+      "domain": "sfgov2.org"
+    },
+    {
+      "domain": "sfgov3.org"
+    },
+    {
+      "domain": "sfgsa.org"
+    },
+    {
+      "domain": "sflawlibrary.org"
+    },
+    {
+      "domain": "sfmayor.org"
+    },
+    {
+      "domain": "sfmohcd.org"
+    },
+    {
+      "domain": "sfocii.org"
+    },
+    {
+      "domain": "sfosb.org"
+    },
+    {
+      "domain": "sfport.com"
+    },
+    {
+      "domain": "sfrb.org"
+    },
+    {
+      "domain": "sftreasureisland.org"
+    },
+    {
+      "domain": "sftreasurer.org"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-11-04T13:06:33.282Z"
+}

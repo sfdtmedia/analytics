@@ -1,0 +1,464 @@
+{
+  "name": "sites",
+  "query": {
+    "start-date": "14daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:hostname"
+    ],
+    "filters": "ga:sessions>0",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Participating hostnames.",
+    "description": "Participating hostnames over the last 30 days with at least 1 visit."
+  },
+  "data": [
+    {
+      "domain": "(not set)"
+    },
+    {
+      "domain": "161.58.95.84"
+    },
+    {
+      "domain": "192.168.99.100"
+    },
+    {
+      "domain": "206.190.45.150"
+    },
+    {
+      "domain": "38.106.4.152"
+    },
+    {
+      "domain": "38.106.4.153"
+    },
+    {
+      "domain": "38.106.4.155"
+    },
+    {
+      "domain": "38.106.4.156"
+    },
+    {
+      "domain": "38.106.4.182"
+    },
+    {
+      "domain": "38.106.4.186"
+    },
+    {
+      "domain": "38.106.4.187"
+    },
+    {
+      "domain": "38.106.4.190"
+    },
+    {
+      "domain": "38.106.4.193"
+    },
+    {
+      "domain": "38.106.4.196"
+    },
+    {
+      "domain": "38.106.4.204"
+    },
+    {
+      "domain": "38.106.4.205"
+    },
+    {
+      "domain": "38.106.4.209"
+    },
+    {
+      "domain": "38.106.4.216"
+    },
+    {
+      "domain": "38.106.4.220"
+    },
+    {
+      "domain": "38.106.4.230"
+    },
+    {
+      "domain": "38.106.4.41"
+    },
+    {
+      "domain": "581a353171e20a1ac6461fd5.scribe-laura-36687.bitballoon.com"
+    },
+    {
+      "domain": "581a3c5a71e20a1981b061e1.appeng.bitballoon.com"
+    },
+    {
+      "domain": "65.55.108.4"
+    },
+    {
+      "domain": "65.55.252.15"
+    },
+    {
+      "domain": "Sfgov2.org"
+    },
+    {
+      "domain": "aca.accela.com"
+    },
+    {
+      "domain": "analytics.sfgov.org"
+    },
+    {
+      "domain": "animalshelter.sfgov.org"
+    },
+    {
+      "domain": "appeng.bitballoon.com"
+    },
+    {
+      "domain": "bids.findrfp.com"
+    },
+    {
+      "domain": "bsm.sfdpw.org"
+    },
+    {
+      "domain": "bsmnt"
+    },
+    {
+      "domain": "bsmnt.sfdpw.org"
+    },
+    {
+      "domain": "cc.bingj.com"
+    },
+    {
+      "domain": "city03.sfgov.org"
+    },
+    {
+      "domain": "city05.sfgov.org"
+    },
+    {
+      "domain": "client.ql2.com"
+    },
+    {
+      "domain": "custom_dev.dhr-custom.sfgov.org.710elmp05.blackmesh.com"
+    },
+    {
+      "domain": "custom_prod.dhr-custom.sfgov.org.710elwb03.blackmesh.com"
+    },
+    {
+      "domain": "custom_prod.dhr-custom.sfgov.org.710elwb04.blackmesh.com"
+    },
+    {
+      "domain": "dcyf.org"
+    },
+    {
+      "domain": "dev.sfrb.org.710elmp01.blackmesh.com"
+    },
+    {
+      "domain": "devwebtest"
+    },
+    {
+      "domain": "dhr.l"
+    },
+    {
+      "domain": "fanyi.myyoudao.com"
+    },
+    {
+      "domain": "filmsf.org"
+    },
+    {
+      "domain": "filmsf.org.googleweblight.com"
+    },
+    {
+      "domain": "give2sf.org"
+    },
+    {
+      "domain": "jobapsdev.com"
+    },
+    {
+      "domain": "jobapsqa.com"
+    },
+    {
+      "domain": "local.sfcity"
+    },
+    {
+      "domain": "localhost"
+    },
+    {
+      "domain": "oewd.org"
+    },
+    {
+      "domain": "oewd.org.googleweblight.com"
+    },
+    {
+      "domain": "ow.ly"
+    },
+    {
+      "domain": "owa.sfgov.org"
+    },
+    {
+      "domain": "prod.mayor.sfgov.org.710elwb01.blackmesh.com"
+    },
+    {
+      "domain": "prod.osb.sfgov.org.710elwb01.blackmesh.com"
+    },
+    {
+      "domain": "prod.police.sfgov.org.710elwb01.blackmesh.com"
+    },
+    {
+      "domain": "prod.sfbos.org.710elwb01.blackmesh.com"
+    },
+    {
+      "domain": "prod.sftreasurer.org.710elwb01.blackmesh.com"
+    },
+    {
+      "domain": "prod.sftreasurer.org.710elwb02.blackmesh.com"
+    },
+    {
+      "domain": "prod.www.sf-fire.org.710elwb02.blackmesh.com"
+    },
+    {
+      "domain": "sanfranciscopolice.org"
+    },
+    {
+      "domain": "sanfranciscopolice.org.googleweblight.com"
+    },
+    {
+      "domain": "server8.kproxy.com"
+    },
+    {
+      "domain": "services.sfgov.org"
+    },
+    {
+      "domain": "sf-fire.org"
+    },
+    {
+      "domain": "sf-fire.org.googleweblight.com"
+    },
+    {
+      "domain": "sf-hrc.org"
+    },
+    {
+      "domain": "sf-hrc.org.googleweblight.com"
+    },
+    {
+      "domain": "sf-moh.org"
+    },
+    {
+      "domain": "sf-planning.org"
+    },
+    {
+      "domain": "sf-planning.org.googleweblight.com"
+    },
+    {
+      "domain": "sf-port.org"
+    },
+    {
+      "domain": "sf311.org"
+    },
+    {
+      "domain": "sfbos.org"
+    },
+    {
+      "domain": "sfcoit.org"
+    },
+    {
+      "domain": "sfcontroller.org"
+    },
+    {
+      "domain": "sfdbi.org"
+    },
+    {
+      "domain": "sfdbi.org.googleweblight.com"
+    },
+    {
+      "domain": "sfdem.org"
+    },
+    {
+      "domain": "sfdhr.org"
+    },
+    {
+      "domain": "sfdhr.org.googleweblight.com"
+    },
+    {
+      "domain": "sfdistrictattorney.org"
+    },
+    {
+      "domain": "sfgov.org"
+    },
+    {
+      "domain": "sfgov.org."
+    },
+    {
+      "domain": "sfgov.org.googleweblight.com"
+    },
+    {
+      "domain": "sfgov2.org"
+    },
+    {
+      "domain": "sfgov3.org"
+    },
+    {
+      "domain": "sfgsa.org"
+    },
+    {
+      "domain": "sflawlibrary.org"
+    },
+    {
+      "domain": "sfmayor.org"
+    },
+    {
+      "domain": "sfmohcd.org"
+    },
+    {
+      "domain": "sfmohcd.org.googleweblight.com"
+    },
+    {
+      "domain": "sfocii.org"
+    },
+    {
+      "domain": "sfoconnect.l"
+    },
+    {
+      "domain": "sfosb.org"
+    },
+    {
+      "domain": "sfpbd.sfgov.org"
+    },
+    {
+      "domain": "sfport.com"
+    },
+    {
+      "domain": "sfrb.org"
+    },
+    {
+      "domain": "sftreasureisland.org"
+    },
+    {
+      "domain": "sftreasurer.org"
+    },
+    {
+      "domain": "sftreasurer.org.googleweblight.com"
+    },
+    {
+      "domain": "snkj.sf.gov"
+    },
+    {
+      "domain": "staff.sfmta.com"
+    },
+    {
+      "domain": "stage.acc.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.bdappeal.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.cao.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.countyclerk.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.da.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.elections.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.jobaps.com"
+    },
+    {
+      "domain": "stage.mayor.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.mod.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.newsfgov.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.oewd.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.sf311.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.sfmayor.sfgov.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.sfrb.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "stage.www.sf-fire.org.710elmp02.blackmesh.com"
+    },
+    {
+      "domain": "translate.baiducontent.com"
+    },
+    {
+      "domain": "translate.googleusercontent.com"
+    },
+    {
+      "domain": "web.archive.org"
+    },
+    {
+      "domain": "webcache.googleusercontent.com"
+    },
+    {
+      "domain": "ww.sfartscommission.org"
+    },
+    {
+      "domain": "www.animalshelter.sfgov.org"
+    },
+    {
+      "domain": "www.dcyf.org"
+    },
+    {
+      "domain": "www.gaire21.com"
+    },
+    {
+      "domain": "www.services.sfgov.org"
+    },
+    {
+      "domain": "www.sf-planning.org"
+    },
+    {
+      "domain": "www.sf-police.org"
+    },
+    {
+      "domain": "www.sfdhr.org"
+    },
+    {
+      "domain": "www.sfelections.org"
+    },
+    {
+      "domain": "www.sfethics.org"
+    },
+    {
+      "domain": "www.sfethics.org."
+    },
+    {
+      "domain": "www.sfgov.org"
+    },
+    {
+      "domain": "www.sfgov2.org"
+    },
+    {
+      "domain": "www.sfgov3.org"
+    },
+    {
+      "domain": "www.sfmohcd.org"
+    },
+    {
+      "domain": "www.sfrb.org"
+    },
+    {
+      "domain": "www.typepad.com"
+    },
+    {
+      "domain": "www.world-check.com"
+    },
+    {
+      "domain": "www5.sfgov.org"
+    },
+    {
+      "domain": "www6.sfgov.org"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-11-04T13:06:33.506Z"
+}

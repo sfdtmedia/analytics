@@ -1,0 +1,303 @@
+{
+  "name": "all-domains-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "filters": "ga:sessions>=1000",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "All Domains (30 Days)",
+    "description": "Last 30 days' domains, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "domain": "sfgov.org",
+      "visits": "538035",
+      "pageviews": "923447",
+      "users": "360419",
+      "pageviews_per_session": "1.7163325805941994",
+      "avg_session_duration": "124.10154172126349",
+      "exits": "528469"
+    },
+    {
+      "domain": "sftreasurer.org",
+      "visits": "103496",
+      "pageviews": "299082",
+      "users": "71217",
+      "pageviews_per_session": "2.889792842235449",
+      "avg_session_duration": "223.44319587230424",
+      "exits": "103318"
+    },
+    {
+      "domain": "sfdhr.org",
+      "visits": "95375",
+      "pageviews": "241260",
+      "users": "47010",
+      "pageviews_per_session": "2.5295937090432505",
+      "avg_session_duration": "188.42184010484928",
+      "exits": "94839"
+    },
+    {
+      "domain": "sanfranciscopolice.org",
+      "visits": "89553",
+      "pageviews": "170388",
+      "users": "71560",
+      "pageviews_per_session": "1.9026498274764665",
+      "avg_session_duration": "98.84147934742555",
+      "exits": "89202"
+    },
+    {
+      "domain": "sfmohcd.org",
+      "visits": "80301",
+      "pageviews": "224422",
+      "users": "43504",
+      "pageviews_per_session": "2.7947597165664186",
+      "avg_session_duration": "214.65319236373145",
+      "exits": "79937"
+    },
+    {
+      "domain": "sfcontroller.org",
+      "visits": "74869",
+      "pageviews": "171632",
+      "users": "39391",
+      "pageviews_per_session": "2.292430779094151",
+      "avg_session_duration": "273.95180915999947",
+      "exits": "74155"
+    },
+    {
+      "domain": "sfdbi.org",
+      "visits": "69699",
+      "pageviews": "129986",
+      "users": "37928",
+      "pageviews_per_session": "1.8649621945795491",
+      "avg_session_duration": "131.71556263361023",
+      "exits": "69487"
+    },
+    {
+      "domain": "sf-planning.org",
+      "visits": "56698",
+      "pageviews": "114250",
+      "users": "34512",
+      "pageviews_per_session": "2.0150622596917",
+      "avg_session_duration": "175.69565064023422",
+      "exits": "55984"
+    },
+    {
+      "domain": "sfbos.org",
+      "visits": "27920",
+      "pageviews": "78631",
+      "users": "18223",
+      "pageviews_per_session": "2.8162965616045845",
+      "avg_session_duration": "145.98162607449856",
+      "exits": "27836"
+    },
+    {
+      "domain": "sfrb.org",
+      "visits": "27710",
+      "pageviews": "77712",
+      "users": "18482",
+      "pageviews_per_session": "2.8044749188018767",
+      "avg_session_duration": "210.93118007939373",
+      "exits": "27661"
+    },
+    {
+      "domain": "sf-fire.org",
+      "visits": "22812",
+      "pageviews": "48476",
+      "users": "17563",
+      "pageviews_per_session": "2.12502191828862",
+      "avg_session_duration": "116.35604068034368",
+      "exits": "22655"
+    },
+    {
+      "domain": "sfport.com",
+      "visits": "18435",
+      "pageviews": "46151",
+      "users": "14584",
+      "pageviews_per_session": "2.5034445348521834",
+      "avg_session_duration": "122.11890425820451",
+      "exits": "18378"
+    },
+    {
+      "domain": "bsm.sfdpw.org",
+      "visits": "12893",
+      "pageviews": "21456",
+      "users": "8228",
+      "pageviews_per_session": "1.6641588458853642",
+      "avg_session_duration": "106.32824013030327",
+      "exits": "12893"
+    },
+    {
+      "domain": "sfmayor.org",
+      "visits": "9707",
+      "pageviews": "17519",
+      "users": "7778",
+      "pageviews_per_session": "1.8047800556299578",
+      "avg_session_duration": "85.23282167507983",
+      "exits": "9673"
+    },
+    {
+      "domain": "sfdistrictattorney.org",
+      "visits": "9045",
+      "pageviews": "19100",
+      "users": "6393",
+      "pageviews_per_session": "2.111663902708679",
+      "avg_session_duration": "121.61625207296849",
+      "exits": "9034"
+    },
+    {
+      "domain": "www.sfethics.org",
+      "visits": "8401",
+      "pageviews": "23530",
+      "users": "4142",
+      "pageviews_per_session": "2.8008570408284728",
+      "avg_session_duration": "194.10546363528152",
+      "exits": "8406"
+    },
+    {
+      "domain": "oewd.org",
+      "visits": "7560",
+      "pageviews": "18697",
+      "users": "5500",
+      "pageviews_per_session": "2.473148148148148",
+      "avg_session_duration": "154.51719576719577",
+      "exits": "7511"
+    },
+    {
+      "domain": "sfdem.org",
+      "visits": "7375",
+      "pageviews": "13961",
+      "users": "5513",
+      "pageviews_per_session": "1.8930169491525424",
+      "avg_session_duration": "110.22142372881356",
+      "exits": "7362"
+    },
+    {
+      "domain": "sftreasureisland.org",
+      "visits": "7364",
+      "pageviews": "15982",
+      "users": "6286",
+      "pageviews_per_session": "2.170287887017925",
+      "avg_session_duration": "121.74348180336773",
+      "exits": "7322"
+    },
+    {
+      "domain": "38.106.4.205",
+      "visits": "4707",
+      "pageviews": "7005",
+      "users": "4704",
+      "pageviews_per_session": "1.4882090503505419",
+      "avg_session_duration": "1.2458041215211386",
+      "exits": "4704"
+    },
+    {
+      "domain": "sf-hrc.org",
+      "visits": "4401",
+      "pageviews": "7364",
+      "users": "3571",
+      "pageviews_per_session": "1.6732560781640535",
+      "avg_session_duration": "91.5316973415133",
+      "exits": "4388"
+    },
+    {
+      "domain": "sflawlibrary.org",
+      "visits": "4087",
+      "pageviews": "7542",
+      "users": "2364",
+      "pageviews_per_session": "1.845363347198434",
+      "avg_session_duration": "189.0650844139956",
+      "exits": "4076"
+    },
+    {
+      "domain": "www.sfgov2.org",
+      "visits": "3751",
+      "pageviews": "6508",
+      "users": "2838",
+      "pageviews_per_session": "1.7350039989336177",
+      "avg_session_duration": "64.7208744334844",
+      "exits": "3751"
+    },
+    {
+      "domain": "sfocii.org",
+      "visits": "3453",
+      "pageviews": "8629",
+      "users": "2304",
+      "pageviews_per_session": "2.4989863886475527",
+      "avg_session_duration": "160.72487691862148",
+      "exits": "3403"
+    },
+    {
+      "domain": "filmsf.org",
+      "visits": "3147",
+      "pageviews": "6710",
+      "users": "2445",
+      "pageviews_per_session": "2.1321893867175086",
+      "avg_session_duration": "139.13028280902446",
+      "exits": "3126"
+    },
+    {
+      "domain": "www.dcyf.org",
+      "visits": "2662",
+      "pageviews": "6047",
+      "users": "1903",
+      "pageviews_per_session": "2.2716003005259204",
+      "avg_session_duration": "135.1273478587528",
+      "exits": "2662"
+    },
+    {
+      "domain": "sfgsa.org",
+      "visits": "2215",
+      "pageviews": "4477",
+      "users": "1977",
+      "pageviews_per_session": "2.0212189616252823",
+      "avg_session_duration": "82.23386004514673",
+      "exits": "2207"
+    },
+    {
+      "domain": "sfosb.org",
+      "visits": "1689",
+      "pageviews": "3966",
+      "users": "1264",
+      "pageviews_per_session": "2.3481349911190055",
+      "avg_session_duration": "108.29307282415631",
+      "exits": "1681"
+    },
+    {
+      "domain": "sfgov2.org",
+      "visits": "1644",
+      "pageviews": "2191",
+      "users": "1466",
+      "pageviews_per_session": "1.3327250608272505",
+      "avg_session_duration": "25.15815085158151",
+      "exits": "1644"
+    },
+    {
+      "domain": "dcyf.org",
+      "visits": "1450",
+      "pageviews": "2518",
+      "users": "1089",
+      "pageviews_per_session": "1.7365517241379311",
+      "avg_session_duration": "208.8055172413793",
+      "exits": "1448"
+    }
+  ],
+  "totals": {
+    "visits": 2718639
+  },
+  "taken_at": "2016-11-04T13:06:34.197Z"
+}

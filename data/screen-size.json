@@ -1,0 +1,32 @@
+{
+  "name": "screen-size",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:screenResolution",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date"
+    ],
+    "filters": "ga:sessions>5000",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Screen Resolution",
+    "description": "90 days of Screen Resolution visits for all sites."
+  },
+  "totals": {
+    "visits": 575732,
+    "screen_resolution": {
+      "1920x1080": 565386,
+      "375x667": 10346
+    },
+    "start_date": "2016-08-08",
+    "end_date": "2016-11-03"
+  },
+  "taken_at": "2016-11-04T13:06:28.803Z"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "top-domains-7-days",
+  "query": {
+    "start-date": "7daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Domains (7 Days)",
+    "description": "Last week's top 20 domains, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "domain": "sfgov.org",
+      "visits": "129928"
+    },
+    {
+      "domain": "sftreasurer.org",
+      "visits": "23461"
+    },
+    {
+      "domain": "sfcontroller.org",
+      "visits": "22068"
+    },
+    {
+      "domain": "sfdhr.org",
+      "visits": "21483"
+    },
+    {
+      "domain": "sanfranciscopolice.org",
+      "visits": "18269"
+    },
+    {
+      "domain": "sfdbi.org",
+      "visits": "17207"
+    },
+    {
+      "domain": "sfmohcd.org",
+      "visits": "15560"
+    },
+    {
+      "domain": "sf-planning.org",
+      "visits": "13188"
+    },
+    {
+      "domain": "sfbos.org",
+      "visits": "6933"
+    },
+    {
+      "domain": "sfrb.org",
+      "visits": "6870"
+    },
+    {
+      "domain": "sf-fire.org",
+      "visits": "4760"
+    },
+    {
+      "domain": "sfport.com",
+      "visits": "3862"
+    },
+    {
+      "domain": "bsm.sfdpw.org",
+      "visits": "2878"
+    },
+    {
+      "domain": "sfdistrictattorney.org",
+      "visits": "2198"
+    },
+    {
+      "domain": "sfmayor.org",
+      "visits": "2192"
+    },
+    {
+      "domain": "oewd.org",
+      "visits": "1961"
+    },
+    {
+      "domain": "www.sfethics.org",
+      "visits": "1885"
+    },
+    {
+      "domain": "sftreasureisland.org",
+      "visits": "1265"
+    },
+    {
+      "domain": "sfdem.org",
+      "visits": "1245"
+    },
+    {
+      "domain": "sf-hrc.org",
+      "visits": "1059"
+    }
+  ],
+  "totals": {
+    "visits": 298272
+  },
+  "taken_at": "2016-11-04T13:06:32.143Z"
+}

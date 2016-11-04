@@ -1,0 +1,32 @@
+{
+  "name": "language",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:language",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date"
+    ],
+    "filters": "ga:sessions>1000",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Browser Language",
+    "description": "90 days of visits by browser language for all sites. (>1000 sessions)"
+  },
+  "totals": {
+    "visits": 3467567,
+    "languages": {
+      "en-us": 3466380,
+      "es": 1187
+    },
+    "start_date": "2016-08-06",
+    "end_date": "2016-11-03"
+  },
+  "taken_at": "2016-11-04T13:06:29.028Z"
+}

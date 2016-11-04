@@ -1,0 +1,489 @@
+{
+  "name": "top-cities-realtime",
+  "query": {
+    "dimensions": "rt:city",
+    "metrics": [
+      "rt:activeUsers"
+    ],
+    "sort": [
+      "-rt:activeUsers"
+    ],
+    "max-results": 10000
+  },
+  "meta": {
+    "name": "Top Cities (Live)",
+    "description": "Top cities for active onsite users."
+  },
+  "data": [
+    {
+      "city": "San Francisco",
+      "active_visitors": "236"
+    },
+    {
+      "city": "Frisco",
+      "active_visitors": "17"
+    },
+    {
+      "city": "Berkeley",
+      "active_visitors": "12"
+    },
+    {
+      "city": "New York",
+      "active_visitors": "11"
+    },
+    {
+      "city": "Oakland",
+      "active_visitors": "7"
+    },
+    {
+      "city": "Toronto",
+      "active_visitors": "7"
+    },
+    {
+      "city": "Los Angeles",
+      "active_visitors": "6"
+    },
+    {
+      "city": "South San Francisco",
+      "active_visitors": "6"
+    },
+    {
+      "city": "San Jose",
+      "active_visitors": "5"
+    },
+    {
+      "city": "zz",
+      "active_visitors": "5"
+    },
+    {
+      "city": "Chicago",
+      "active_visitors": "4"
+    },
+    {
+      "city": "Houston",
+      "active_visitors": "4"
+    },
+    {
+      "city": "San Rafael",
+      "active_visitors": "4"
+    },
+    {
+      "city": "Austin",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Daly City",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Pleasanton",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Roseville",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Sacramento",
+      "active_visitors": "3"
+    },
+    {
+      "city": "San Diego",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Walnut Creek",
+      "active_visitors": "3"
+    },
+    {
+      "city": "Boston",
+      "active_visitors": "2"
+    },
+    {
+      "city": "Dallas",
+      "active_visitors": "2"
+    },
+    {
+      "city": "Manhattan Beach",
+      "active_visitors": "2"
+    },
+    {
+      "city": "Missouri City",
+      "active_visitors": "2"
+    },
+    {
+      "city": "North New Hyde Park",
+      "active_visitors": "2"
+    },
+    {
+      "city": "Philadelphia",
+      "active_visitors": "2"
+    },
+    {
+      "city": "Redwood City",
+      "active_visitors": "2"
+    },
+    {
+      "city": "San Mateo",
+      "active_visitors": "2"
+    },
+    {
+      "city": "Seattle",
+      "active_visitors": "2"
+    },
+    {
+      "city": "Washington",
+      "active_visitors": "2"
+    },
+    {
+      "city": "Albuquerque",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Allen",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Anchorage",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Apple Valley",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Atwater",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Barcelona",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Boca Raton",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Boulder Creek",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Buffalo",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Calgary",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Campbell",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Cerritos",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Chandler",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Charlotte",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Clearfield",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Clovis",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Colorado Springs",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Coral Gables",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Corte Madera",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Courbevoie",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Czestochowa",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Danville",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Denver",
+      "active_visitors": "1"
+    },
+    {
+      "city": "East Palo Alto",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Fairborn",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Fremont",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Fresno",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Garland",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Germantown",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Greenwood Village",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Halifax",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Hamburg",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Hamilton",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Hayward",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Hillsboro",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Irvine",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Irving",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Jackson",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Kennesaw",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Las Vegas",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Manhattan",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Martinez",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Menlo Park",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Merced",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Mesquite",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Mill Valley",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Modesto",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Napa",
+      "active_visitors": "1"
+    },
+    {
+      "city": "New Orleans",
+      "active_visitors": "1"
+    },
+    {
+      "city": "New Westminster",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Newington",
+      "active_visitors": "1"
+    },
+    {
+      "city": "North Miami",
+      "active_visitors": "1"
+    },
+    {
+      "city": "North Miami Beach",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Novi",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Overland Park",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Pacifica",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Palo Alto",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Parkville",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Pasig",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Pittsburg",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Pretoria",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Redding",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Richmond",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Riverside",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Rocky Top",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Rohnert Park",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Romans-sur-Isere",
+      "active_visitors": "1"
+    },
+    {
+      "city": "San Antonio",
+      "active_visitors": "1"
+    },
+    {
+      "city": "San Bruno",
+      "active_visitors": "1"
+    },
+    {
+      "city": "San Carlos",
+      "active_visitors": "1"
+    },
+    {
+      "city": "San Leandro",
+      "active_visitors": "1"
+    },
+    {
+      "city": "San Ramon",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Santa Cruz",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Saratoga",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Sjobo",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Solingen",
+      "active_visitors": "1"
+    },
+    {
+      "city": "South Hill",
+      "active_visitors": "1"
+    },
+    {
+      "city": "State College",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Sunnyside",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Tacoma",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Tampa",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Terrebonne",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Tucson",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Upland",
+      "active_visitors": "1"
+    },
+    {
+      "city": "West Covina",
+      "active_visitors": "1"
+    },
+    {
+      "city": "West Vancouver",
+      "active_visitors": "1"
+    },
+    {
+      "city": "Willowbrook",
+      "active_visitors": "1"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-11-04T19:00:03.250Z"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "windows",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:operatingSystemVersion",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date"
+    ],
+    "filters": "ga:operatingSystem==Windows;ga:sessions>100",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Windows",
+    "description": "90 days of visits from Windows users, broken down by operating system version and date, for all sites."
+  },
+  "totals": {
+    "visits": 2104874,
+    "os_version": {
+      "7": 1437064,
+      "8": 18208,
+      "10": 464654,
+      "8.1": 139812,
+      "Vista": 20058,
+      "XP": 25078
+    },
+    "start_date": "2016-08-06",
+    "end_date": "2016-11-03"
+  },
+  "taken_at": "2016-11-04T13:06:29.890Z"
+}

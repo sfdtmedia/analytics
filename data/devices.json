@@ -1,0 +1,32 @@
+{
+  "name": "devices",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:deviceCategory",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date"
+    ],
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Devices",
+    "description": "90 days of desktop/mobile/tablet visits for all sites."
+  },
+  "totals": {
+    "visits": 3670658,
+    "devices": {
+      "mobile": 835288,
+      "desktop": 2712507,
+      "tablet": 122863
+    },
+    "start_date": "2016-08-06",
+    "end_date": "2016-11-03"
+  },
+  "taken_at": "2016-11-04T13:06:28.575Z"
+}

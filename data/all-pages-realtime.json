@@ -1,0 +1,46 @@
+{
+  "name": "all-pages-realtime",
+  "query": {
+    "dimensions": "rt:pagePath,rt:pageTitle",
+    "metrics": [
+      "rt:activeUsers"
+    ],
+    "sort": [
+      "-rt:activeUsers"
+    ],
+    "max-results": 10000
+  },
+  "meta": {
+    "name": "All Pages (Live)",
+    "description": "Pages, measured by active onsite users, for all sites."
+  },
+  "data": [
+    {
+      "page": "sfgov.org/sfc/employee-gateway",
+      "page_title": "Employee Gateway | SFGOV",
+      "active_visitors": "57"
+    },
+    {
+      "page": "sfgov.org/",
+      "page_title": "SFGOV",
+      "active_visitors": "45"
+    },
+    {
+      "page": "sfcontroller.org/CCSF-EPAYROLL-–-online-paystubs",
+      "page_title": "CCSF ePayroll – Online Paystubs | Office of the Controller",
+      "active_visitors": "15"
+    },
+    {
+      "page": "sfgov.org/elections/voting-november-8-2016-election",
+      "page_title": "Voting in the November 8, 2016, Election | Department of Elections",
+      "active_visitors": "12"
+    },
+    {
+      "page": "sftreasurer.org/property-tax-payments",
+      "page_title": "Property Tax Payments | Treasurer & Tax Collector",
+      "active_visitors": "10"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-11-04T19:00:03.670Z"
+}

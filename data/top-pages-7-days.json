@@ -1,0 +1,147 @@
+{
+  "name": "top-pages-7-days",
+  "query": {
+    "start-date": "7daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname,ga:pagePath,ga:pageTitle",
+    "metrics": [
+      "ga:pageviews"
+    ],
+    "sort": [
+      "-ga:pageviews"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Pages (7 Days)",
+    "description": "Last week's top 20 pages, measured by page views, for all sites."
+  },
+  "data": [
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/",
+      "page_title": "SFGOV",
+      "pageviews": "59270"
+    },
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/sfc/employee-gateway",
+      "page_title": "Employee Gateway | SFGOV",
+      "pageviews": "21124"
+    },
+    {
+      "domain": "sfcontroller.org",
+      "page": "sfcontroller.org/CCSF-epayroll-–-online-paystubs",
+      "page_title": "CCSF ePayroll – Online Paystubs | Office of the Controller",
+      "pageviews": "18441"
+    },
+    {
+      "domain": "sftreasurer.org",
+      "page": "sftreasurer.org/property-tax-payments",
+      "page_title": "Property Tax Payments | Treasurer & Tax Collector",
+      "pageviews": "15677"
+    },
+    {
+      "domain": "sftreasurer.org",
+      "page": "sftreasurer.org/",
+      "page_title": "Treasurer & Tax Collector",
+      "pageviews": "11159"
+    },
+    {
+      "domain": "sfdbi.org",
+      "page": "sfdbi.org/",
+      "page_title": "Department of Building Inspection",
+      "pageviews": "8899"
+    },
+    {
+      "domain": "sfmohcd.org",
+      "page": "sfmohcd.org/affordable-rentals-alice-griffith-phase-1-2",
+      "page_title": "Affordable Rentals: Alice Griffith Phase 1 & 2 | Mayor's Office of Housing and Community Development",
+      "pageviews": "7177"
+    },
+    {
+      "domain": "sfdhr.org",
+      "page": "sfdhr.org/",
+      "page_title": "Department of Human Resources",
+      "pageviews": "7117"
+    },
+    {
+      "domain": "sfdhr.org",
+      "page": "sfdhr.org/classification-and-compensation-database",
+      "page_title": "Classification & Compensation Database | Department of Human Resources",
+      "pageviews": "6989"
+    },
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/elections/",
+      "page_title": "Department of Elections",
+      "pageviews": "5531"
+    },
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/elections/voting-november-8-2016-election",
+      "page_title": "Voting in the November 8, 2016, Election | Department of Elections",
+      "pageviews": "5443"
+    },
+    {
+      "domain": "sfdhr.org",
+      "page": "sfdhr.org/eligible-list-postings",
+      "page_title": "| Department of Human Resources",
+      "pageviews": "5288"
+    },
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/elections/local-ballot-measure-status",
+      "page_title": "Local Ballot Measure Status | Department of Elections",
+      "pageviews": "4694"
+    },
+    {
+      "domain": "sfcontroller.org",
+      "page": "sfcontroller.org/ccsf-epayroll-–-online-paystubs",
+      "page_title": "CCSF ePayroll – Online Paystubs | Office of the Controller",
+      "pageviews": "4410"
+    },
+    {
+      "domain": "sanfranciscopolice.org",
+      "page": "sanfranciscopolice.org/",
+      "page_title": "Police Department",
+      "pageviews": "4300"
+    },
+    {
+      "domain": "sfmohcd.org",
+      "page": "sfmohcd.org/",
+      "page_title": "Mayor's Office of Housing and Community Development",
+      "pageviews": "4139"
+    },
+    {
+      "domain": "sfmohcd.org",
+      "page": "sfmohcd.org/current-listings-below-market-rate-ownership-units",
+      "page_title": "Current Listings: Below Market Rate Ownership Units | Mayor's Office of Housing and Community Development",
+      "pageviews": "3989"
+    },
+    {
+      "domain": "sfdhr.org",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "pageviews": "3744"
+    },
+    {
+      "domain": "sf-planning.org",
+      "page": "sf-planning.org/",
+      "page_title": "Planning Department",
+      "pageviews": "3530"
+    },
+    {
+      "domain": "sftreasurer.org",
+      "page": "sftreasurer.org/online-property-tax-payment-faq",
+      "page_title": "Online Property Tax Payment - FAQ | Treasurer & Tax Collector",
+      "pageviews": "3205"
+    }
+  ],
+  "totals": {
+    "visits": 204126
+  },
+  "taken_at": "2016-10-14T17:07:42.013Z"
+}

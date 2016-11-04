@@ -1,0 +1,252 @@
+{
+  "name": "top-pages-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname,ga:pagePath,ga:pageTitle",
+    "metrics": [
+      "ga:pageviews",
+      "ga:sessions",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:pageviews"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Pages (30 Days)",
+    "description": "Last 30 days' top 20 pages, measured by page views, for all sites."
+  },
+  "data": [
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/",
+      "page_title": "SFGOV",
+      "pageviews": "265700",
+      "visits": "226165",
+      "users": "197902",
+      "pageviews_per_session": "1.1748060044657662",
+      "avg_session_duration": "58.04379988061813",
+      "exits": "204444"
+    },
+    {
+      "domain": "sfcontroller.org",
+      "page": "sfcontroller.org/ccsf-epayroll-–-online-paystubs",
+      "page_title": "CCSF ePayroll – Online Paystubs | Office of the Controller",
+      "pageviews": "105595",
+      "visits": "49327",
+      "users": "29203",
+      "pageviews_per_session": "2.14071401058244",
+      "avg_session_duration": "253.06335272771506",
+      "exits": "49479"
+    },
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/sfc/employee-gateway",
+      "page_title": "Employee Gateway | SFGOV",
+      "pageviews": "98390",
+      "visits": "71110",
+      "users": "18358",
+      "pageviews_per_session": "1.3836309942342848",
+      "avg_session_duration": "215.5695682745043",
+      "exits": "64833"
+    },
+    {
+      "domain": "sfdbi.org",
+      "page": "sfdbi.org/",
+      "page_title": "Department of Building Inspection",
+      "pageviews": "42805",
+      "visits": "33472",
+      "users": "18968",
+      "pageviews_per_session": "1.2788300669216062",
+      "avg_session_duration": "141.01783580305928",
+      "exits": "26810"
+    },
+    {
+      "domain": "sftreasurer.org",
+      "page": "sftreasurer.org/property-tax-payments",
+      "page_title": "Property Tax Payments | Treasurer & Tax Collector",
+      "pageviews": "38412",
+      "visits": "15273",
+      "users": "15829",
+      "pageviews_per_session": "2.515026517383618",
+      "avg_session_duration": "161.8018071105873",
+      "exits": "18939"
+    },
+    {
+      "domain": "sfdhr.org",
+      "page": "sfdhr.org/classification-and-compensation-database",
+      "page_title": "Classification & Compensation Database | Department of Human Resources",
+      "pageviews": "37726",
+      "visits": "11060",
+      "users": "8618",
+      "pageviews_per_session": "3.4110307414104883",
+      "avg_session_duration": "199.57133815551538",
+      "exits": "15848"
+    },
+    {
+      "domain": "sfdhr.org",
+      "page": "sfdhr.org/",
+      "page_title": "Department of Human Resources",
+      "pageviews": "36031",
+      "visits": "25777",
+      "users": "13962",
+      "pageviews_per_session": "1.3977964852387788",
+      "avg_session_duration": "206.2913062032044",
+      "exits": "13955"
+    },
+    {
+      "domain": "sftreasurer.org",
+      "page": "sftreasurer.org/",
+      "page_title": "Treasurer & Tax Collector",
+      "pageviews": "34787",
+      "visits": "21315",
+      "users": "17521",
+      "pageviews_per_session": "1.6320431620924232",
+      "avg_session_duration": "268.0482289467511",
+      "exits": "5724"
+    },
+    {
+      "domain": "sfdhr.org",
+      "page": "sfdhr.org/eligible-list-postings",
+      "page_title": "| Department of Human Resources",
+      "pageviews": "26854",
+      "visits": "6591",
+      "users": "7960",
+      "pageviews_per_session": "4.074343802154453",
+      "avg_session_duration": "257.2095281444394",
+      "exits": "9184"
+    },
+    {
+      "domain": "sfcontroller.org",
+      "page": "sfcontroller.org/CCSF-epayroll-–-online-paystubs",
+      "page_title": "CCSF ePayroll – Online Paystubs | Office of the Controller",
+      "pageviews": "23933",
+      "visits": "4095",
+      "users": "3368",
+      "pageviews_per_session": "5.844444444444444",
+      "avg_session_duration": "979.9936507936508",
+      "exits": "4124"
+    },
+    {
+      "domain": "sfmohcd.org",
+      "page": "sfmohcd.org/",
+      "page_title": "Mayor's Office of Housing and Community Development",
+      "pageviews": "18714",
+      "visits": "11386",
+      "users": "9035",
+      "pageviews_per_session": "1.6435974003161777",
+      "avg_session_duration": "319.46548392763043",
+      "exits": "5128"
+    },
+    {
+      "domain": "sfmohcd.org",
+      "page": "sfmohcd.org/current-listings-below-market-rate-ownership-units",
+      "page_title": "Current Listings: Below Market Rate Ownership Units | Mayor's Office of Housing and Community Development",
+      "pageviews": "18596",
+      "visits": "8114",
+      "users": "6811",
+      "pageviews_per_session": "2.291841262016268",
+      "avg_session_duration": "258.1494947005176",
+      "exits": "5591"
+    },
+    {
+      "domain": "sanfranciscopolice.org",
+      "page": "sanfranciscopolice.org/",
+      "page_title": "Police Department",
+      "pageviews": "17923",
+      "visits": "12427",
+      "users": "11819",
+      "pageviews_per_session": "1.4422628148386578",
+      "avg_session_duration": "188.46584050857004",
+      "exits": "4643"
+    },
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/elections/local-ballot-measure-status",
+      "page_title": "Local Ballot Measure Status | Department of Elections",
+      "pageviews": "17249",
+      "visits": "9843",
+      "users": "8996",
+      "pageviews_per_session": "1.752412882251346",
+      "avg_session_duration": "191.20451081987198",
+      "exits": "7134"
+    },
+    {
+      "domain": "sf-planning.org",
+      "page": "sf-planning.org/",
+      "page_title": "Planning Department",
+      "pageviews": "17011",
+      "visits": "12701",
+      "users": "7075",
+      "pageviews_per_session": "1.3393433587906465",
+      "avg_session_duration": "261.3383985512952",
+      "exits": "5937"
+    },
+    {
+      "domain": "sftreasurer.org",
+      "page": "sftreasurer.org/PROPERTY-TAX-PAYMENTS",
+      "page_title": "Property Tax Payments | Treasurer & Tax Collector",
+      "pageviews": "16705",
+      "visits": "3292",
+      "users": "8626",
+      "pageviews_per_session": "5.074422843256379",
+      "avg_session_duration": "195.6913730255164",
+      "exits": "9155"
+    },
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/elections/voting-november-8-2016-election",
+      "page_title": "Voting in the November 8, 2016, Election | Department of Elections",
+      "pageviews": "16539",
+      "visits": "9240",
+      "users": "10485",
+      "pageviews_per_session": "1.789935064935065",
+      "avg_session_duration": "64.1969696969697",
+      "exits": "11521"
+    },
+    {
+      "domain": "sfgov.org",
+      "page": "sfgov.org/elections/",
+      "page_title": "Department of Elections",
+      "pageviews": "15885",
+      "visits": "11050",
+      "users": "10382",
+      "pageviews_per_session": "1.4375565610859729",
+      "avg_session_duration": "138.8460633484163",
+      "exits": "6123"
+    },
+    {
+      "domain": "sfdhr.org",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "pageviews": "15221",
+      "visits": "1834",
+      "users": "5471",
+      "pageviews_per_session": "8.299345692475464",
+      "avg_session_duration": "157.8347873500545",
+      "exits": "4690"
+    },
+    {
+      "domain": "sfbos.org",
+      "page": "sfbos.org/",
+      "page_title": "Board of Supervisors",
+      "pageviews": "14447",
+      "visits": "9637",
+      "users": "5959",
+      "pageviews_per_session": "1.4991179827747225",
+      "avg_session_duration": "189.34575075230882",
+      "exits": "4330"
+    }
+  ],
+  "totals": {
+    "visits": 878523
+  },
+  "taken_at": "2016-10-14T17:07:44.475Z"
+}

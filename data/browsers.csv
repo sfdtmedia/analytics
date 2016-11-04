@@ -1,0 +1,604 @@
+date,browser,visits
+2016-08-06,Chrome,9308
+2016-08-06,Safari,6754
+2016-08-06,Internet Explorer,1875
+2016-08-06,Firefox,1156
+2016-08-06,Edge,311
+2016-08-06,Safari (in-app),191
+2016-08-07,Chrome,10290
+2016-08-07,Safari,6840
+2016-08-07,Internet Explorer,1918
+2016-08-07,Firefox,1254
+2016-08-07,Edge,396
+2016-08-07,Safari (in-app),180
+2016-08-08,Chrome,19958
+2016-08-08,Internet Explorer,13144
+2016-08-08,Safari,9444
+2016-08-08,Firefox,3706
+2016-08-08,Edge,702
+2016-08-08,Safari (in-app),244
+2016-08-08,Mozilla,146
+2016-08-09,Chrome,20187
+2016-08-09,Internet Explorer,13305
+2016-08-09,Safari,9427
+2016-08-09,Firefox,3587
+2016-08-09,Edge,759
+2016-08-09,Safari (in-app),241
+2016-08-09,Mozilla,126
+2016-08-10,Chrome,18391
+2016-08-10,Internet Explorer,11453
+2016-08-10,Safari,7706
+2016-08-10,Firefox,3242
+2016-08-10,Edge,625
+2016-08-10,Safari (in-app),226
+2016-08-10,Mozilla,149
+2016-08-11,Chrome,20237
+2016-08-11,Internet Explorer,11643
+2016-08-11,Safari,7640
+2016-08-11,Firefox,3231
+2016-08-11,Edge,643
+2016-08-11,Safari (in-app),257
+2016-08-11,Mozilla,119
+2016-08-12,Chrome,17464
+2016-08-12,Internet Explorer,10898
+2016-08-12,Safari,6919
+2016-08-12,Firefox,2850
+2016-08-12,Edge,505
+2016-08-12,Safari (in-app),165
+2016-08-13,Chrome,8565
+2016-08-13,Safari,5285
+2016-08-13,Internet Explorer,1784
+2016-08-13,Firefox,1024
+2016-08-13,Edge,301
+2016-08-13,Safari (in-app),118
+2016-08-14,Chrome,9027
+2016-08-14,Safari,5598
+2016-08-14,Internet Explorer,1703
+2016-08-14,Firefox,1089
+2016-08-14,Edge,283
+2016-08-14,Safari (in-app),112
+2016-08-15,Chrome,21485
+2016-08-15,Internet Explorer,12114
+2016-08-15,Safari,8991
+2016-08-15,Firefox,3547
+2016-08-15,Edge,659
+2016-08-15,Safari (in-app),359
+2016-08-15,Mozilla,135
+2016-08-16,Chrome,20452
+2016-08-16,Internet Explorer,11646
+2016-08-16,Safari,8293
+2016-08-16,Firefox,3525
+2016-08-16,Edge,611
+2016-08-16,Safari (in-app),361
+2016-08-16,Mozilla,128
+2016-08-17,Chrome,20238
+2016-08-17,Internet Explorer,11058
+2016-08-17,Safari,7602
+2016-08-17,Firefox,3208
+2016-08-17,Edge,617
+2016-08-17,Safari (in-app),327
+2016-08-18,Chrome,19903
+2016-08-18,Internet Explorer,10857
+2016-08-18,Safari,7866
+2016-08-18,Firefox,3264
+2016-08-18,Edge,620
+2016-08-18,Safari (in-app),254
+2016-08-18,Mozilla,108
+2016-08-19,Chrome,18181
+2016-08-19,Internet Explorer,10772
+2016-08-19,Safari,7839
+2016-08-19,Firefox,2895
+2016-08-19,Edge,639
+2016-08-19,Safari (in-app),264
+2016-08-19,Mozilla,123
+2016-08-19,Android Browser,114
+2016-08-20,Chrome,9718
+2016-08-20,Safari,6951
+2016-08-20,Internet Explorer,1982
+2016-08-20,Firefox,1224
+2016-08-20,Edge,369
+2016-08-20,Safari (in-app),204
+2016-08-21,Chrome,10718
+2016-08-21,Safari,7285
+2016-08-21,Internet Explorer,2136
+2016-08-21,Firefox,1330
+2016-08-21,Edge,477
+2016-08-21,Safari (in-app),139
+2016-08-22,Chrome,22820
+2016-08-22,Internet Explorer,13556
+2016-08-22,Safari,9406
+2016-08-22,Firefox,3879
+2016-08-22,Edge,748
+2016-08-22,Safari (in-app),286
+2016-08-22,Mozilla,128
+2016-08-22,Android Browser,113
+2016-08-23,Chrome,24943
+2016-08-23,Internet Explorer,13223
+2016-08-23,Safari,12049
+2016-08-23,Firefox,3827
+2016-08-23,Edge,788
+2016-08-23,Safari (in-app),298
+2016-08-23,Mozilla,131
+2016-08-23,Android Browser,107
+2016-08-24,Chrome,22743
+2016-08-24,Internet Explorer,11806
+2016-08-24,Safari,9968
+2016-08-24,Firefox,3462
+2016-08-24,Edge,690
+2016-08-24,Safari (in-app),172
+2016-08-24,Mozilla,143
+2016-08-24,Android Browser,101
+2016-08-25,Chrome,22979
+2016-08-25,Internet Explorer,11780
+2016-08-25,Safari,11013
+2016-08-25,Firefox,3564
+2016-08-25,Edge,661
+2016-08-25,Safari (in-app),261
+2016-08-25,Mozilla,148
+2016-08-26,Chrome,20586
+2016-08-26,Internet Explorer,11013
+2016-08-26,Safari,10072
+2016-08-26,Firefox,3187
+2016-08-26,Edge,655
+2016-08-26,Safari (in-app),300
+2016-08-26,Mozilla,101
+2016-08-27,Chrome,10149
+2016-08-27,Safari,6830
+2016-08-27,Internet Explorer,1845
+2016-08-27,Firefox,1203
+2016-08-27,Edge,369
+2016-08-27,Safari (in-app),292
+2016-08-28,Chrome,11124
+2016-08-28,Safari,7435
+2016-08-28,Internet Explorer,1787
+2016-08-28,Firefox,1232
+2016-08-28,Edge,404
+2016-08-28,Safari (in-app),283
+2016-08-29,Chrome,25375
+2016-08-29,Internet Explorer,12135
+2016-08-29,Safari,11204
+2016-08-29,Firefox,3885
+2016-08-29,Edge,896
+2016-08-29,Safari (in-app),354
+2016-08-29,Mozilla,144
+2016-08-30,Chrome,26624
+2016-08-30,Safari,12374
+2016-08-30,Internet Explorer,11768
+2016-08-30,Firefox,3907
+2016-08-30,Edge,910
+2016-08-30,Safari (in-app),319
+2016-08-30,Mozilla,157
+2016-08-31,Chrome,28150
+2016-08-31,Safari,14001
+2016-08-31,Internet Explorer,11631
+2016-08-31,Firefox,3934
+2016-08-31,Edge,922
+2016-08-31,Safari (in-app),347
+2016-08-31,Android Browser,103
+2016-09-01,Chrome,24220
+2016-09-01,Internet Explorer,11327
+2016-09-01,Safari,11096
+2016-09-01,Firefox,3714
+2016-09-01,Edge,666
+2016-09-01,Safari (in-app),440
+2016-09-01,Mozilla,101
+2016-09-02,Chrome,20488
+2016-09-02,Internet Explorer,10894
+2016-09-02,Safari,9882
+2016-09-02,Firefox,3121
+2016-09-02,Edge,637
+2016-09-02,Safari (in-app),434
+2016-09-02,Mozilla,114
+2016-09-03,Chrome,10478
+2016-09-03,Safari,7477
+2016-09-03,Internet Explorer,2084
+2016-09-03,Firefox,1206
+2016-09-03,Edge,381
+2016-09-03,Safari (in-app),207
+2016-09-04,Chrome,10193
+2016-09-04,Safari,6329
+2016-09-04,Internet Explorer,1836
+2016-09-04,Firefox,1064
+2016-09-04,Edge,388
+2016-09-04,Safari (in-app),218
+2016-09-05,Chrome,12109
+2016-09-05,Safari,6663
+2016-09-05,Internet Explorer,2171
+2016-09-05,Firefox,1325
+2016-09-05,Edge,413
+2016-09-05,Safari (in-app),148
+2016-09-06,Chrome,24521
+2016-09-06,Internet Explorer,13936
+2016-09-06,Safari,8969
+2016-09-06,Firefox,3864
+2016-09-06,Edge,818
+2016-09-06,Safari (in-app),274
+2016-09-06,Mozilla,135
+2016-09-07,Chrome,24531
+2016-09-07,Internet Explorer,11476
+2016-09-07,Safari,8902
+2016-09-07,Firefox,3536
+2016-09-07,Edge,761
+2016-09-07,Safari (in-app),272
+2016-09-07,Mozilla,109
+2016-09-08,Chrome,22503
+2016-09-08,Internet Explorer,11327
+2016-09-08,Safari,8431
+2016-09-08,Firefox,3447
+2016-09-08,Edge,692
+2016-09-08,Safari (in-app),222
+2016-09-08,Mozilla,102
+2016-09-09,Chrome,20649
+2016-09-09,Internet Explorer,11122
+2016-09-09,Safari,8295
+2016-09-09,Firefox,3095
+2016-09-09,Edge,615
+2016-09-09,Safari (in-app),352
+2016-09-09,Mozilla,104
+2016-09-10,Chrome,9741
+2016-09-10,Safari,6196
+2016-09-10,Internet Explorer,1719
+2016-09-10,Firefox,1116
+2016-09-10,Edge,298
+2016-09-10,Safari (in-app),170
+2016-09-11,Chrome,10819
+2016-09-11,Safari,6079
+2016-09-11,Internet Explorer,1674
+2016-09-11,Firefox,1218
+2016-09-11,Edge,335
+2016-09-11,Safari (in-app),167
+2016-09-12,Chrome,23587
+2016-09-12,Internet Explorer,12383
+2016-09-12,Safari,8654
+2016-09-12,Firefox,3616
+2016-09-12,Edge,739
+2016-09-12,Safari (in-app),280
+2016-09-12,Mozilla,135
+2016-09-13,Chrome,23363
+2016-09-13,Internet Explorer,11441
+2016-09-13,Safari,8564
+2016-09-13,Firefox,3549
+2016-09-13,Edge,687
+2016-09-13,Safari (in-app),225
+2016-09-13,Mozilla,113
+2016-09-14,Chrome,22801
+2016-09-14,Internet Explorer,10887
+2016-09-14,Safari,8237
+2016-09-14,Firefox,3542
+2016-09-14,Edge,705
+2016-09-14,Safari (in-app),411
+2016-09-15,Chrome,21639
+2016-09-15,Internet Explorer,11036
+2016-09-15,Safari,7824
+2016-09-15,Firefox,3270
+2016-09-15,Edge,595
+2016-09-15,Safari (in-app),453
+2016-09-15,Mozilla,105
+2016-09-16,Chrome,18680
+2016-09-16,Internet Explorer,10588
+2016-09-16,Safari,7035
+2016-09-16,Firefox,2746
+2016-09-16,Edge,541
+2016-09-16,Safari (in-app),165
+2016-09-17,Chrome,10144
+2016-09-17,Safari,6873
+2016-09-17,Internet Explorer,1897
+2016-09-17,Firefox,1253
+2016-09-17,Edge,350
+2016-09-17,Safari (in-app),181
+2016-09-18,Chrome,11460
+2016-09-18,Safari,7116
+2016-09-18,Internet Explorer,1982
+2016-09-18,Firefox,1316
+2016-09-18,Edge,422
+2016-09-18,Safari (in-app),148
+2016-09-19,Chrome,25702
+2016-09-19,Internet Explorer,12704
+2016-09-19,Safari,10176
+2016-09-19,Firefox,3913
+2016-09-19,Edge,780
+2016-09-19,Safari (in-app),458
+2016-09-19,Mozilla,125
+2016-09-20,Chrome,23436
+2016-09-20,Internet Explorer,12361
+2016-09-20,Safari,9153
+2016-09-20,Firefox,3872
+2016-09-20,Edge,761
+2016-09-20,Safari (in-app),222
+2016-09-20,Mozilla,133
+2016-09-21,Chrome,22320
+2016-09-21,Internet Explorer,10880
+2016-09-21,Safari,8765
+2016-09-21,Firefox,3470
+2016-09-21,Edge,705
+2016-09-21,Safari (in-app),230
+2016-09-21,Mozilla,130
+2016-09-22,Chrome,23673
+2016-09-22,Internet Explorer,11342
+2016-09-22,Safari,9365
+2016-09-22,Firefox,3558
+2016-09-22,Edge,723
+2016-09-22,Safari (in-app),222
+2016-09-23,Chrome,20032
+2016-09-23,Internet Explorer,11061
+2016-09-23,Safari,8135
+2016-09-23,Firefox,3190
+2016-09-23,Edge,550
+2016-09-23,Safari (in-app),309
+2016-09-24,Chrome,9729
+2016-09-24,Safari,6179
+2016-09-24,Internet Explorer,1656
+2016-09-24,Firefox,1144
+2016-09-24,Edge,349
+2016-09-24,Safari (in-app),176
+2016-09-25,Chrome,10170
+2016-09-25,Safari,5824
+2016-09-25,Internet Explorer,1603
+2016-09-25,Firefox,1134
+2016-09-25,Edge,366
+2016-09-25,Safari (in-app),120
+2016-09-26,Chrome,24506
+2016-09-26,Internet Explorer,11818
+2016-09-26,Safari,9264
+2016-09-26,Firefox,3584
+2016-09-26,Edge,705
+2016-09-26,Safari (in-app),260
+2016-09-26,Mozilla,112
+2016-09-27,Chrome,23477
+2016-09-27,Internet Explorer,11404
+2016-09-27,Safari,8902
+2016-09-27,Firefox,3654
+2016-09-27,Edge,620
+2016-09-27,Safari (in-app),203
+2016-09-27,Mozilla,117
+2016-09-28,Chrome,22816
+2016-09-28,Internet Explorer,11168
+2016-09-28,Safari,8644
+2016-09-28,Firefox,3426
+2016-09-28,Edge,686
+2016-09-28,Safari (in-app),308
+2016-09-28,Mozilla,156
+2016-09-29,Chrome,21984
+2016-09-29,Internet Explorer,11068
+2016-09-29,Safari,8136
+2016-09-29,Firefox,3309
+2016-09-29,Edge,646
+2016-09-29,Safari (in-app),257
+2016-09-29,Mozilla,150
+2016-09-30,Chrome,18954
+2016-09-30,Internet Explorer,10542
+2016-09-30,Safari,7484
+2016-09-30,Firefox,2946
+2016-09-30,Edge,560
+2016-09-30,Safari (in-app),157
+2016-09-30,Mozilla,117
+2016-10-01,Chrome,9623
+2016-10-01,Safari,6827
+2016-10-01,Internet Explorer,1922
+2016-10-01,Firefox,1149
+2016-10-01,Edge,391
+2016-10-01,Safari (in-app),128
+2016-10-02,Chrome,11684
+2016-10-02,Safari,7547
+2016-10-02,Internet Explorer,2073
+2016-10-02,Firefox,1249
+2016-10-02,Edge,449
+2016-10-02,Safari (in-app),116
+2016-10-03,Chrome,24729
+2016-10-03,Internet Explorer,13250
+2016-10-03,Safari,9633
+2016-10-03,Firefox,3918
+2016-10-03,Edge,721
+2016-10-03,Safari (in-app),179
+2016-10-03,Mozilla,148
+2016-10-04,Chrome,26148
+2016-10-04,Internet Explorer,13066
+2016-10-04,Safari,10036
+2016-10-04,Firefox,3836
+2016-10-04,Edge,882
+2016-10-04,Safari (in-app),335
+2016-10-04,Mozilla,148
+2016-10-05,Chrome,23569
+2016-10-05,Internet Explorer,11528
+2016-10-05,Safari,9202
+2016-10-05,Firefox,3620
+2016-10-05,Edge,733
+2016-10-05,Safari (in-app),251
+2016-10-05,Mozilla,142
+2016-10-06,Chrome,24205
+2016-10-06,Internet Explorer,11729
+2016-10-06,Safari,10353
+2016-10-06,Firefox,3589
+2016-10-06,Edge,724
+2016-10-06,Safari (in-app),501
+2016-10-06,Mozilla,132
+2016-10-07,Chrome,20936
+2016-10-07,Internet Explorer,10741
+2016-10-07,Safari,8232
+2016-10-07,Firefox,3039
+2016-10-07,Edge,698
+2016-10-07,Safari (in-app),347
+2016-10-07,Mozilla,106
+2016-10-08,Chrome,9863
+2016-10-08,Safari,6075
+2016-10-08,Internet Explorer,1801
+2016-10-08,Firefox,1139
+2016-10-08,Edge,311
+2016-10-08,Safari (in-app),178
+2016-10-09,Chrome,10833
+2016-10-09,Safari,6410
+2016-10-09,Internet Explorer,1579
+2016-10-09,Firefox,1149
+2016-10-09,Edge,366
+2016-10-09,Safari (in-app),131
+2016-10-10,Chrome,19971
+2016-10-10,Safari,8377
+2016-10-10,Internet Explorer,4677
+2016-10-10,Firefox,2321
+2016-10-10,Edge,631
+2016-10-10,Safari (in-app),154
+2016-10-10,Mozilla,143
+2016-10-11,Chrome,24340
+2016-10-11,Internet Explorer,11960
+2016-10-11,Safari,9013
+2016-10-11,Firefox,3631
+2016-10-11,Edge,729
+2016-10-11,Safari (in-app),273
+2016-10-11,Mozilla,152
+2016-10-12,Chrome,25849
+2016-10-12,Internet Explorer,11948
+2016-10-12,Safari,10962
+2016-10-12,Firefox,3749
+2016-10-12,Edge,777
+2016-10-12,Safari (in-app),495
+2016-10-12,Mozilla,136
+2016-10-12,Android Browser,115
+2016-10-13,Chrome,23534
+2016-10-13,Internet Explorer,11951
+2016-10-13,Safari,8853
+2016-10-13,Firefox,3541
+2016-10-13,Edge,715
+2016-10-13,Safari (in-app),333
+2016-10-13,Mozilla,150
+2016-10-13,Android Browser,104
+2016-10-14,Chrome,20964
+2016-10-14,Internet Explorer,12106
+2016-10-14,Safari,8123
+2016-10-14,Firefox,3254
+2016-10-14,Edge,648
+2016-10-14,Safari (in-app),240
+2016-10-14,Mozilla,131
+2016-10-15,Chrome,12266
+2016-10-15,Safari,8968
+2016-10-15,Internet Explorer,2023
+2016-10-15,Firefox,1448
+2016-10-15,Safari (in-app),1242
+2016-10-15,Edge,502
+2016-10-16,Chrome,14892
+2016-10-16,Safari,11661
+2016-10-16,Internet Explorer,2108
+2016-10-16,Firefox,1598
+2016-10-16,Safari (in-app),783
+2016-10-16,Edge,508
+2016-10-17,Chrome,26802
+2016-10-17,Internet Explorer,16241
+2016-10-17,Safari,10568
+2016-10-17,Firefox,4164
+2016-10-17,Edge,939
+2016-10-17,Safari (in-app),293
+2016-10-17,Mozilla,119
+2016-10-18,Chrome,25428
+2016-10-18,Internet Explorer,14133
+2016-10-18,Safari,10041
+2016-10-18,Firefox,4038
+2016-10-18,Edge,855
+2016-10-18,Safari (in-app),239
+2016-10-18,Mozilla,122
+2016-10-19,Chrome,23443
+2016-10-19,Internet Explorer,12595
+2016-10-19,Safari,8843
+2016-10-19,Firefox,3484
+2016-10-19,Edge,766
+2016-10-19,Safari (in-app),150
+2016-10-19,Mozilla,120
+2016-10-20,Chrome,24028
+2016-10-20,Internet Explorer,12501
+2016-10-20,Safari,8873
+2016-10-20,Firefox,3518
+2016-10-20,Edge,713
+2016-10-20,Safari (in-app),204
+2016-10-20,Mozilla,122
+2016-10-21,Chrome,21092
+2016-10-21,Internet Explorer,14083
+2016-10-21,Safari,7803
+2016-10-21,Firefox,3353
+2016-10-21,Edge,681
+2016-10-21,Safari (in-app),218
+2016-10-21,Mozilla,132
+2016-10-22,Chrome,9816
+2016-10-22,Safari,6465
+2016-10-22,Internet Explorer,1915
+2016-10-22,Firefox,1172
+2016-10-22,Edge,348
+2016-10-22,Safari (in-app),130
+2016-10-23,Chrome,12106
+2016-10-23,Safari,6839
+2016-10-23,Internet Explorer,1765
+2016-10-23,Firefox,1317
+2016-10-23,Edge,436
+2016-10-23,Safari (in-app),116
+2016-10-24,Chrome,27127
+2016-10-24,Internet Explorer,14393
+2016-10-24,Safari,9860
+2016-10-24,Firefox,4181
+2016-10-24,Edge,883
+2016-10-24,Safari (in-app),490
+2016-10-24,Mozilla,158
+2016-10-25,Chrome,26058
+2016-10-25,Internet Explorer,12772
+2016-10-25,Safari,10163
+2016-10-25,Firefox,3975
+2016-10-25,Edge,779
+2016-10-25,Safari (in-app),417
+2016-10-25,Mozilla,116
+2016-10-26,Chrome,24670
+2016-10-26,Internet Explorer,11897
+2016-10-26,Safari,9538
+2016-10-26,Firefox,3819
+2016-10-26,Edge,779
+2016-10-26,Safari (in-app),179
+2016-10-26,Mozilla,138
+2016-10-27,Chrome,23826
+2016-10-27,Internet Explorer,12124
+2016-10-27,Safari,8793
+2016-10-27,Firefox,3605
+2016-10-27,Edge,730
+2016-10-27,Safari (in-app),277
+2016-10-28,Chrome,20774
+2016-10-28,Internet Explorer,12162
+2016-10-28,Safari,7869
+2016-10-28,Firefox,3120
+2016-10-28,Edge,646
+2016-10-28,Safari (in-app),254
+2016-10-28,Mozilla,115
+2016-10-29,Chrome,10858
+2016-10-29,Safari,7553
+2016-10-29,Internet Explorer,1969
+2016-10-29,Firefox,1348
+2016-10-29,Edge,411
+2016-10-29,Safari (in-app),335
+2016-10-30,Chrome,13417
+2016-10-30,Safari,8606
+2016-10-30,Internet Explorer,2200
+2016-10-30,Firefox,1527
+2016-10-30,Edge,467
+2016-10-30,Safari (in-app),172
+2016-10-31,Chrome,25026
+2016-10-31,Internet Explorer,13098
+2016-10-31,Safari,9699
+2016-10-31,Firefox,3643
+2016-10-31,Edge,766
+2016-10-31,Safari (in-app),153
+2016-10-31,Mozilla,140
+2016-11-01,Chrome,26168
+2016-11-01,Internet Explorer,13015
+2016-11-01,Safari,10391
+2016-11-01,Firefox,3790
+2016-11-01,Edge,846
+2016-11-01,Safari (in-app),189
+2016-11-01,Mozilla,124
+2016-11-02,Chrome,25861
+2016-11-02,Internet Explorer,11842
+2016-11-02,Safari,10386
+2016-11-02,Firefox,3534
+2016-11-02,Edge,749
+2016-11-02,Safari (in-app),177
+2016-11-02,Opera,112
+2016-11-02,Mozilla,111
+2016-11-03,Chrome,23899
+2016-11-03,Internet Explorer,12211
+2016-11-03,Safari,9260
+2016-11-03,Firefox,3552
+2016-11-03,Edge,727
+2016-11-03,Safari (in-app),259
+2016-11-03,Mozilla,117

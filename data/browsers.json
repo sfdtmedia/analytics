@@ -1,0 +1,40 @@
+{
+  "name": "browsers",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:browser",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date",
+      "-ga:sessions"
+    ],
+    "filters": "ga:sessions>100",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Browsers",
+    "description": "90 days of visits broken down by browser for all sites."
+  },
+  "totals": {
+    "visits": 3645261,
+    "browser": {
+      "Chrome": 1732145,
+      "Safari": 769263,
+      "Internet Explorer": 801597,
+      "Firefox": 254780,
+      "Edge": 55360,
+      "Safari (in-app)": 24181,
+      "Mozilla": 7066,
+      "Android Browser": 757,
+      "Opera": 112
+    },
+    "start_date": "2016-08-06",
+    "end_date": "2016-11-03"
+  },
+  "taken_at": "2016-11-04T13:06:30.136Z"
+}

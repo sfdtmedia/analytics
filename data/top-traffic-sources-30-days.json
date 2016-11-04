@@ -1,0 +1,232 @@
+{
+  "name": "top-traffic-sources-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:source,ga:hasSocialSourceReferral",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Traffic Sources (30 Days)",
+    "description": "Last 30 days' Traffic Sources, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "source": "google",
+      "has_social_referral": "No",
+      "visits": "678886",
+      "pageviews": "1351926",
+      "users": "508924",
+      "pageviews_per_session": "1.991388834060505",
+      "avg_session_duration": "123.01968224414703",
+      "exits": "675273"
+    },
+    {
+      "source": "(direct)",
+      "has_social_referral": "No",
+      "visits": "320614",
+      "pageviews": "693046",
+      "users": "213293",
+      "pageviews_per_session": "2.161621139438702",
+      "avg_session_duration": "190.46322680856107",
+      "exits": "316339"
+    },
+    {
+      "source": "bing",
+      "has_social_referral": "No",
+      "visits": "42855",
+      "pageviews": "101789",
+      "users": "23909",
+      "pageviews_per_session": "2.3751954264379886",
+      "avg_session_duration": "195.51849259129622",
+      "exits": "41852"
+    },
+    {
+      "source": "sfgov.org",
+      "has_social_referral": "No",
+      "visits": "38543",
+      "pageviews": "95409",
+      "users": "22037",
+      "pageviews_per_session": "2.4753911216044417",
+      "avg_session_duration": "179.523700801702",
+      "exits": "38253"
+    },
+    {
+      "source": "sfgov2.org",
+      "has_social_referral": "No",
+      "visits": "30313",
+      "pageviews": "55787",
+      "users": "11359",
+      "pageviews_per_session": "1.8403655197440043",
+      "avg_session_duration": "222.17751459769735",
+      "exits": "28391"
+    },
+    {
+      "source": "yahoo",
+      "has_social_referral": "No",
+      "visits": "23037",
+      "pageviews": "58646",
+      "users": "16409",
+      "pageviews_per_session": "2.5457307809176544",
+      "avg_session_duration": "177.98181186786474",
+      "exits": "22904"
+    },
+    {
+      "source": "sfelections.org",
+      "has_social_referral": "No",
+      "visits": "20629",
+      "pageviews": "42242",
+      "users": "12341",
+      "pageviews_per_session": "2.0476998400310245",
+      "avg_session_duration": "159.09239420233652",
+      "exits": "20448"
+    },
+    {
+      "source": "dbiweb.sfgov.org",
+      "has_social_referral": "No",
+      "visits": "12398",
+      "pageviews": "24325",
+      "users": "5060",
+      "pageviews_per_session": "1.9620100016131634",
+      "avg_session_duration": "136.1039683819971",
+      "exits": "12336"
+    },
+    {
+      "source": "citidex.sfgov.org",
+      "has_social_referral": "No",
+      "visits": "11380",
+      "pageviews": "32132",
+      "users": "2728",
+      "pageviews_per_session": "2.8235500878734623",
+      "avg_session_duration": "274.6872583479789",
+      "exits": "11349"
+    },
+    {
+      "source": "sfcontroller.org",
+      "has_social_referral": "No",
+      "visits": "6560",
+      "pageviews": "11385",
+      "users": "1613",
+      "pageviews_per_session": "1.735518292682927",
+      "avg_session_duration": "286.965243902439",
+      "exits": "6270"
+    },
+    {
+      "source": "jobaps.com",
+      "has_social_referral": "No",
+      "visits": "5903",
+      "pageviews": "15430",
+      "users": "1437",
+      "pageviews_per_session": "2.6139251228189058",
+      "avg_session_duration": "216.69557851939692",
+      "exits": "5835"
+    },
+    {
+      "source": "sfdhr.org",
+      "has_social_referral": "No",
+      "visits": "5568",
+      "pageviews": "8937",
+      "users": "1801",
+      "pageviews_per_session": "1.6050646551724137",
+      "avg_session_duration": "168.9854525862069",
+      "exits": "5228"
+    },
+    {
+      "source": "hsaintranet:8080",
+      "has_social_referral": "No",
+      "visits": "5108",
+      "pageviews": "8100",
+      "users": "1778",
+      "pageviews_per_session": "1.5857478465152701",
+      "avg_session_duration": "115.11413469068128",
+      "exits": "5021"
+    },
+    {
+      "source": "m.facebook.com",
+      "has_social_referral": "Yes",
+      "visits": "4576",
+      "pageviews": "6218",
+      "users": "4296",
+      "pageviews_per_session": "1.3588286713286712",
+      "avg_session_duration": "44.22508741258741",
+      "exits": "4576"
+    },
+    {
+      "source": "t.co",
+      "has_social_referral": "Yes",
+      "visits": "4149",
+      "pageviews": "6335",
+      "users": "3314",
+      "pageviews_per_session": "1.5268739455290432",
+      "avg_session_duration": "55.29067245119306",
+      "exits": "4139"
+    },
+    {
+      "source": "publicrecords.netronline.com",
+      "has_social_referral": "No",
+      "visits": "3526",
+      "pageviews": "11990",
+      "users": "2152",
+      "pageviews_per_session": "3.4004537719795804",
+      "avg_session_duration": "151.8380601247873",
+      "exits": "3524"
+    },
+    {
+      "source": "50.17.237.182",
+      "has_social_referral": "No",
+      "visits": "2843",
+      "pageviews": "6053",
+      "users": "1537",
+      "pageviews_per_session": "2.1290889905029897",
+      "avg_session_duration": "187.14773126978542",
+      "exits": "2817"
+    },
+    {
+      "source": "311sem-prod.sfgov.org",
+      "has_social_referral": "No",
+      "visits": "2678",
+      "pageviews": "6448",
+      "users": "607",
+      "pageviews_per_session": "2.407766990291262",
+      "avg_session_duration": "178.95145631067962",
+      "exits": "2678"
+    },
+    {
+      "source": "staffnet",
+      "has_social_referral": "No",
+      "visits": "2474",
+      "pageviews": "3830",
+      "users": "804",
+      "pageviews_per_session": "1.5481002425222312",
+      "avg_session_duration": "279.6248989490703",
+      "exits": "2364"
+    },
+    {
+      "source": "10.183.251.207",
+      "has_social_referral": "No",
+      "visits": "2403",
+      "pageviews": "7314",
+      "users": "615",
+      "pageviews_per_session": "3.0436953807740323",
+      "avg_session_duration": "335.07865168539325",
+      "exits": "2382"
+    }
+  ],
+  "totals": {
+    "visits": 2547342
+  },
+  "taken_at": "2016-11-04T13:06:32.829Z"
+}

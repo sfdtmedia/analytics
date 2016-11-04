@@ -1,0 +1,65 @@
+{
+  "name": "top-countries-realtime",
+  "query": {
+    "dimensions": "rt:country",
+    "metrics": [
+      "rt:activeUsers"
+    ],
+    "sort": [
+      "-rt:activeUsers"
+    ],
+    "max-results": 10000
+  },
+  "meta": {
+    "name": "Top Cities",
+    "description": "Top countries for active onsite users."
+  },
+  "data": [
+    {
+      "country": "United States",
+      "active_visitors": "429"
+    },
+    {
+      "country": "Canada",
+      "active_visitors": "12"
+    },
+    {
+      "country": "France",
+      "active_visitors": "2"
+    },
+    {
+      "country": "Germany",
+      "active_visitors": "2"
+    },
+    {
+      "country": "Guadeloupe",
+      "active_visitors": "1"
+    },
+    {
+      "country": "Mexico",
+      "active_visitors": "1"
+    },
+    {
+      "country": "Philippines",
+      "active_visitors": "1"
+    },
+    {
+      "country": "Poland",
+      "active_visitors": "1"
+    },
+    {
+      "country": "South Africa",
+      "active_visitors": "1"
+    },
+    {
+      "country": "Spain",
+      "active_visitors": "1"
+    },
+    {
+      "country": "Sweden",
+      "active_visitors": "1"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-11-04T19:00:03.445Z"
+}

@@ -1,0 +1,212 @@
+{
+  "name": "top-exit-pages-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:exitPagePath",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Exit Pages (30 Days)",
+    "description": "Last 30 days' Exit page paths, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "exit_page": "sfgov.org/",
+      "visits": "197813",
+      "pageviews": "238629",
+      "users": "173457",
+      "pageviews_per_session": "1.2063362873016434",
+      "avg_session_duration": "45.191974238295764",
+      "exits": "197813"
+    },
+    {
+      "exit_page": "sfgov.org/sfc/employee-gateway",
+      "visits": "85430",
+      "pageviews": "134076",
+      "users": "23037",
+      "pageviews_per_session": "1.5694252604471497",
+      "avg_session_duration": "280.636825471146",
+      "exits": "85430"
+    },
+    {
+      "exit_page": "sfdbi.org/",
+      "visits": "26182",
+      "pageviews": "35250",
+      "users": "14747",
+      "pageviews_per_session": "1.3463448170498815",
+      "avg_session_duration": "118.64540524024139",
+      "exits": "26182"
+    },
+    {
+      "exit_page": "sfcontroller.org/CCSF-epayroll-–-online-paystubs",
+      "visits": "24113",
+      "pageviews": "78309",
+      "users": "16283",
+      "pageviews_per_session": "3.2475842906316097",
+      "avg_session_duration": "469.66648695724297",
+      "exits": "24113"
+    },
+    {
+      "exit_page": "sfgov.org/elections/voting-november-8-2016-election",
+      "visits": "23805",
+      "pageviews": "39127",
+      "users": "19289",
+      "pageviews_per_session": "1.6436462927956312",
+      "avg_session_duration": "80.31140516698173",
+      "exits": "23805"
+    },
+    {
+      "exit_page": "sftreasurer.org/property-tax-payments",
+      "visits": "22071",
+      "pageviews": "56785",
+      "users": "15294",
+      "pageviews_per_session": "2.572833129445879",
+      "avg_session_duration": "153.77350369262834",
+      "exits": "22071"
+    },
+    {
+      "exit_page": "sfcontroller.org/CCSF-EPAYROLL-–-online-paystubs",
+      "visits": "16330",
+      "pageviews": "39460",
+      "users": "12202",
+      "pageviews_per_session": "2.4164115125535823",
+      "avg_session_duration": "301.51396203306797",
+      "exits": "16330"
+    },
+    {
+      "exit_page": "sfdhr.org/classification-and-compensation-database",
+      "visits": "15613",
+      "pageviews": "46599",
+      "users": "7375",
+      "pageviews_per_session": "2.9846281944533404",
+      "avg_session_duration": "221.37545635047718",
+      "exits": "15613"
+    },
+    {
+      "exit_page": "sfcontroller.org/ccsf-epayroll-–-online-paystubs",
+      "visits": "14689",
+      "pageviews": "22116",
+      "users": "9291",
+      "pageviews_per_session": "1.505616447681939",
+      "avg_session_duration": "127.37667642453536",
+      "exits": "14689"
+    },
+    {
+      "exit_page": "sfdhr.org/",
+      "visits": "13744",
+      "pageviews": "23666",
+      "users": "7152",
+      "pageviews_per_session": "1.7219150174621654",
+      "avg_session_duration": "163.07756111757857",
+      "exits": "13744"
+    },
+    {
+      "exit_page": "sfgov.org/elections/",
+      "visits": "13411",
+      "pageviews": "22786",
+      "users": "11189",
+      "pageviews_per_session": "1.699053016180747",
+      "avg_session_duration": "104.57683990753858",
+      "exits": "13411"
+    },
+    {
+      "exit_page": "(not set)",
+      "visits": "13254",
+      "pageviews": "0",
+      "users": "7021",
+      "pageviews_per_session": "0.0",
+      "avg_session_duration": "67.58156028368795",
+      "exits": "0"
+    },
+    {
+      "exit_page": "sfgov.org/elections/local-ballot-measure-status",
+      "visits": "12356",
+      "pageviews": "24320",
+      "users": "10707",
+      "pageviews_per_session": "1.9682745224991907",
+      "avg_session_duration": "101.36314341210748",
+      "exits": "12356"
+    },
+    {
+      "exit_page": "sftreasurer.org/",
+      "visits": "10924",
+      "pageviews": "35284",
+      "users": "9571",
+      "pageviews_per_session": "3.2299523983888685",
+      "avg_session_duration": "411.8908824606371",
+      "exits": "10924"
+    },
+    {
+      "exit_page": "sfmohcd.org/affordable-rentals-alice-griffith-phase-1-2",
+      "visits": "10513",
+      "pageviews": "16953",
+      "users": "6919",
+      "pageviews_per_session": "1.612574907257681",
+      "avg_session_duration": "128.2861219442595",
+      "exits": "10513"
+    },
+    {
+      "exit_page": "sftreasurer.org/property-TAX-PAYMENTS",
+      "visits": "8995",
+      "pageviews": "25200",
+      "users": "7492",
+      "pageviews_per_session": "2.801556420233463",
+      "avg_session_duration": "171.2887159533074",
+      "exits": "8995"
+    },
+    {
+      "exit_page": "sfdhr.org/eligible-list-postings",
+      "visits": "8888",
+      "pageviews": "22946",
+      "users": "3463",
+      "pageviews_per_session": "2.5816831683168315",
+      "avg_session_duration": "197.94093159315932",
+      "exits": "8888"
+    },
+    {
+      "exit_page": "sanfranciscopolice.org/vehicle-towing-rights",
+      "visits": "7516",
+      "pageviews": "8288",
+      "users": "7016",
+      "pageviews_per_session": "1.1027142096860032",
+      "avg_session_duration": "32.07756785524215",
+      "exits": "7516"
+    },
+    {
+      "exit_page": "sfdbi.org/instant-online-permit",
+      "visits": "7372",
+      "pageviews": "12891",
+      "users": "4228",
+      "pageviews_per_session": "1.748643516006511",
+      "avg_session_duration": "110.15328269126424",
+      "exits": "7372"
+    },
+    {
+      "exit_page": "sfgov.org/elections/department-elections",
+      "visits": "7102",
+      "pageviews": "10974",
+      "users": "4890",
+      "pageviews_per_session": "1.5451985356237679",
+      "avg_session_duration": "143.6513658124472",
+      "exits": "7102"
+    }
+  ],
+  "totals": {
+    "visits": 893659
+  },
+  "taken_at": "2016-11-04T13:06:33.053Z"
+}

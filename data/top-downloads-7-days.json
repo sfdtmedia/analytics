@@ -1,0 +1,626 @@
+{
+  "name": "top-downloads-7-days",
+  "query": {
+    "start-date": "7daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:pageTitle,ga:eventLabel,ga:pagePath",
+    "metrics": [
+      "ga:totalEvents"
+    ],
+    "sort": [
+      "-ga:totalEvents"
+    ],
+    "filters": "ga:eventCategory=~ownload;ga:eventLabel!~swf$;ga:pagePath!~(usps.com).*/(?i)(zip|doc).*",
+    "start-index": 1,
+    "max-results": 100,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Downloads (7 Days)",
+    "description": "Top downloads in the last 7 days."
+  },
+  "data": [
+    {
+      "page_title": "Affordable Rentals: 1009 Howard Street (Bill Sorro Community) | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Lottery%20Results%20for%20Posting%20-%20Bill%20Sorro%2010-26-2016_0.pdf",
+      "page": "sfmohcd.org/affordable-rentals-1009-Howard-street-bill-sorro-community",
+      "total_events": "505"
+    },
+    {
+      "page_title": "2016_AMI_IncomeLimits-SanFranHMFA.pdf | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/2016_AMI_IncomeLimits-SanFranHMFA.pdf",
+      "page": "sfmohcd.org/file/861",
+      "total_events": "430"
+    },
+    {
+      "page_title": "Affordable Rentals: 1009 Howard Street (Bill Sorro Community) | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Lottery%20Results%20for%20Posting%20-%20Bill%20Sorro%2010-26-2016_0.pdf",
+      "page": "sfmohcd.org/affordable-rentals-1009-howard-street-bill-sorro-community",
+      "total_events": "411"
+    },
+    {
+      "page_title": "Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/ElectionsArchives/2016/Nov/2016N_VIP_EN.pdf",
+      "page": "sfgov.org/elections/",
+      "total_events": "330"
+    },
+    {
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/7249_067466_fri.pdf",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "total_events": "304"
+    },
+    {
+      "page_title": "2016 San Francisco Cruise Schedule in Excel Spreadsheet Format | Port of San Francisco",
+      "event_label": "/sites/default/files/Cruises/Docs/2016%20San%20Francisco%20Cruise%20Schedule%202016-04-29a.xlsx",
+      "page": "sfport.com/file/4481",
+      "total_events": "301"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/SF_Neighborhoods_June_2014.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "284"
+    },
+    {
+      "page_title": "PPSD Home Page | Office of the Controller",
+      "event_label": "/sites/default/files/Documents/payroll/CAL2017.pdf",
+      "page": "sfcontroller.org/ppsd-home-page",
+      "total_events": "283"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/Citywide_8-12.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "281"
+    },
+    {
+      "page_title": "Affordable Housing Resources | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/ECS%20Listings.pdf",
+      "page": "sfmohcd.org/affordable-housing-resources-0",
+      "total_events": "275"
+    },
+    {
+      "page_title": "How to Obtain Copies of Marriage Licenses | Office of the County Clerk",
+      "event_label": "/countyclerk/sites/default/files/Documents/ACCCMC.pdf",
+      "page": "sfgov.org/countyclerk/how-obtain-copies-marriage-licenses",
+      "total_events": "275"
+    },
+    {
+      "page_title": "Vote by Mail | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/Voting/2016/2016N_VBMInstructions_ENCH.pdf",
+      "page": "sfgov.org/elections/vote-mail",
+      "total_events": "272"
+    },
+    {
+      "page_title": "Affordable Housing Rental Application | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/Universal%20Rent%20ShortForm%20PaperApp%20v8%20-%20English.pdf",
+      "page": "sfmohcd.org/AFFORDABLE-RENTAL-APPLICATION",
+      "total_events": "247"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/0932_063470_wed_adm.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "237"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/0932_069491_wed.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "236"
+    },
+    {
+      "page_title": "Sugary Drinks Distributor Tax Ordinance Legal Text.pdf | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/candidates/Sugary%20Legal%20Text.pdf",
+      "page": "sfgov.org/elections/file/3941",
+      "total_events": "225"
+    },
+    {
+      "page_title": "Benefits Overview | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Classification%20and%20Compensation/Benefit%20Eligibility%20by%20Appt.%20and%20Schedule%20Type.pdf",
+      "page": "sfdhr.org/benefits-overview",
+      "total_events": "220"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/1064_068236_mon.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "215"
+    },
+    {
+      "page_title": "February 2016.pdf | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/February%202016.pdf",
+      "page": "sfmohcd.org/file/27?documentid=6734",
+      "total_events": "207"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/5601_901137_mon.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "207"
+    },
+    {
+      "page_title": "Forms - Marriage License | Office of the County Clerk",
+      "event_label": "/countyclerk/ftp/uploadedfiles/countyclerk/Forms/MLPA.pdf",
+      "page": "sfgov.org/countyclerk/forms-marriage-license",
+      "total_events": "205"
+    },
+    {
+      "page_title": "Forms - Birth & Death Certificates | Office of the County Clerk",
+      "event_label": "/countyclerk/sites/default/files/Documents/ACCBC.pdf",
+      "page": "sfgov.org/countyclerk/forms-birth-death-certificates",
+      "total_events": "194"
+    },
+    {
+      "page_title": "General Rental Application | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/BMR%20Rental%20Applications/General%20BMR%20Rental%20Application/Universal%20Rent%20ShortForm%20PaperApp%20v9%20-%20English.pdf",
+      "page": "sfmohcd.org/general-bmr-rental-application",
+      "total_events": "192"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/7251_M00124_mon.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "192"
+    },
+    {
+      "page_title": "Affordable Housing Rental Application | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/Universal%20Rent%20ShortForm%20PaperApp%20v8%20-%20English.pdf",
+      "page": "sfmohcd.org/AFFordable-rental-application",
+      "total_events": "191"
+    },
+    {
+      "page_title": "School District Bond.pdf | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/candidates/201607111348.pdf",
+      "page": "sfgov.org/elections/file/4171",
+      "total_events": "190"
+    },
+    {
+      "page_title": "Legalize Your Illegal Units Today | Department of Building Inspection",
+      "event_label": "/sites/default/files/Unit%20Legalization%20Flowchart%20Vizio%20Land%2006-15-15.pdf",
+      "page": "sfdbi.org/UnitLegalization",
+      "total_events": "188"
+    },
+    {
+      "page_title": "Benefits Overview | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Classification%20and%20Compensation/Health%20Benefit%20Eligibility.pdf",
+      "page": "sfdhr.org/benefits-overview",
+      "total_events": "178"
+    },
+    {
+      "page_title": "2016 Gross Receipts Tax Worksheet.pdf | Treasurer & Tax Collector",
+      "event_label": "/sites/default/files/2016%20Gross%20Receipts%20Tax%20Worksheet%20Revised%204.8.16.pdf",
+      "page": "sftreasurer.org/file/1107",
+      "total_events": "176"
+    },
+    {
+      "page_title": "Memoranda of Understandings & Labor Agreements | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Employees/Employee%20Relations%20and%20MOUs/Local%2021%202014%20Final%20MOU%20with%20Amendment%201.pdf",
+      "page": "sfdhr.org/memoranda-understanding",
+      "total_events": "173"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/9774_070129_wed.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "172"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/0932_066073_fri.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "170"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/7251_M00123_mon.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "167"
+    },
+    {
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/0932_066073_fri.pdf",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "total_events": "165"
+    },
+    {
+      "page_title": "280 Brigthon Avenue BMR Rental Application | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/BMR%20Rental%20Applications/Brighton%20BMR%20Rental%20Applications/Universal%20Rent%20ShortForm%20PaperApp%20v9%20-%20English%20for%20Brighton.pdf",
+      "page": "sfmohcd.org/280-brigthon-avenue-bmr-rental-application",
+      "total_events": "160"
+    },
+    {
+      "page_title": "Topic No. 051: This Year's Annual Allowable Increase | Rent Board",
+      "event_label": "/sites/default/files/Document/Form/571%20Allowable%20Annual%20Increases%2016-17%20FINAL_0.pdf",
+      "page": "sfrb.org/topic-no-051-years-annual-allowable-increase",
+      "total_events": "159"
+    },
+    {
+      "page_title": "2016FBNS.pdf | Office of the County Clerk",
+      "event_label": "/countyclerk/sites/default/files/2016FBNS.pdf",
+      "page": "sfgov.org/countyclerk/file/751",
+      "total_events": "156"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/1053_069764_tues.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "156"
+    },
+    {
+      "page_title": "Affordable Housing Rental Application | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/Universal%20Rent%20ShortForm%20PaperApp%20v8%20-%20English.pdf",
+      "page": "sfmohcd.org/affordable-rental-application",
+      "total_events": "155"
+    },
+    {
+      "page_title": "Police District Maps | Police Department",
+      "event_label": "/sites/default/files/Citywide_District_Map.pdf",
+      "page": "sanfranciscopolice.org/police-district-maps",
+      "total_events": "154"
+    },
+    {
+      "page_title": "Contact Us | Department of Building Inspection",
+      "event_label": "/sites/default/files/DBI%20Phone%20Directory.pdf",
+      "page": "sfdbi.org/contact-us",
+      "total_events": "152"
+    },
+    {
+      "page_title": "District 8 | Board of Supervisors",
+      "event_label": "/sites/default/files/wiener.jpg",
+      "page": "sfbos.org/supervisor-wiener-district-8",
+      "total_events": "150"
+    },
+    {
+      "page_title": "Rent Board",
+      "event_label": "/sites/default/files/Document/Form/571%20Allowable%20Annual%20Increases%2016-17%20FINAL_0.pdf",
+      "page": "sfrb.org/",
+      "total_events": "145"
+    },
+    {
+      "page_title": "Minimum Wage Ordinance (MWO) | Office of Labor Standards Enforcement",
+      "event_label": "/olse/sites/default/files/Document/69_MinWageOrdinancePoster_0616v4.pdf",
+      "page": "sfgov.org/olse/minimum-wage-ordinance-mwo",
+      "total_events": "144"
+    },
+    {
+      "page_title": "Building Inspection Division | Department of Building Inspection",
+      "event_label": "/sites/default/files/BID%20Org%20Chart.pdf",
+      "page": "sfdbi.org/building-inspection-division-0",
+      "total_events": "143"
+    },
+    {
+      "page_title": "Affordable Senior Rentals: Willie B. Kennedy | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Copy%20of%20Willie%20B.%20Kennedy%20-%20Lottery%20Results%2010.12.2016.pdf",
+      "page": "sfmohcd.org/AFFORDABLE-SENIOR-RENTALS-WILLIE-B-KENNEDY",
+      "total_events": "139"
+    },
+    {
+      "page_title": "Controller Statement Prop A - School Bonds.pdf | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/candidates/Nov%202016%20Prop%20A%20-%20School%20Bonds.pdf",
+      "page": "sfgov.org/elections/file/7384",
+      "total_events": "139"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/D7_8-12.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "139"
+    },
+    {
+      "page_title": "Vote by Mail | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/Voting/2016/N16_VBMApp_ENCH.pdf",
+      "page": "sfgov.org/elections/vote-mail",
+      "total_events": "137"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/2320_900390_tues_0.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "137"
+    },
+    {
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/Q002_060667_fri.pdf",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "total_events": "133"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/1051_066729_thurs.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "131"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/D5_8-12.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "130"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/7249_067466_fri.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "129"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/Q002_060667_fri.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "128"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/D6_8-12.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "125"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/D8_8-12.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "124"
+    },
+    {
+      "page_title": "District 6 | Board of Supervisors",
+      "event_label": "/sites/default/files/kim.jpg",
+      "page": "sfbos.org/supervisor-kim-district-6",
+      "total_events": "120"
+    },
+    {
+      "page_title": "Plumbing Inspection Division | Department of Building Inspection",
+      "event_label": "/sites/default/files/PID%20Org%20Chart.pdf",
+      "page": "sfdbi.org/plumbinginspection",
+      "total_events": "120"
+    },
+    {
+      "page_title": "District 5 | Board of Supervisors",
+      "event_label": "/sites/default/files/breed.jpg",
+      "page": "sfbos.org/supervisor-breed-district-5",
+      "total_events": "119"
+    },
+    {
+      "page_title": "District 3 | Board of Supervisors",
+      "event_label": "/sites/default/files/peskin.jpg",
+      "page": "sfbos.org/supervisor-peskin",
+      "total_events": "118"
+    },
+    {
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/9506_M00140_thurs.pdf",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "total_events": "118"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/5601_901137_mon.pdf",
+      "page": "sfdhr.org/eligible-list-postings?page=17",
+      "total_events": "118"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/D1_8-12.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "116"
+    },
+    {
+      "page_title": "Poll Worker Resources | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/GetInvolved/2016N_PW_Manual.pdf",
+      "page": "sfgov.org/elections/poll-worker-resources",
+      "total_events": "115"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/D9_8-12.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "114"
+    },
+    {
+      "page_title": "Vote by Mail | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/Voting/2016/PermVBMApp_ENCH.pdf",
+      "page": "sfgov.org/elections/vote-mail",
+      "total_events": "114"
+    },
+    {
+      "page_title": "District 7 | Board of Supervisors",
+      "event_label": "/sites/default/files/yee.jpg",
+      "page": "sfbos.org/supervisor-yee-district-7",
+      "total_events": "112"
+    },
+    {
+      "page_title": "Benefits Overview | Department of Human Resources",
+      "event_label": "/sites/default/files/FileCenter/Documents/14453-Final%20Employee%20Handbook%20January%202012.pdf",
+      "page": "sfdhr.org/benefits-overview",
+      "total_events": "106"
+    },
+    {
+      "page_title": "Events | Board of Supervisors",
+      "event_label": "/event/2016/bf110216_agenda.pdf",
+      "page": "sfbos.org/events/calendar/upcoming",
+      "total_events": "106"
+    },
+    {
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/7208_069427_fri.pdf",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "total_events": "104"
+    },
+    {
+      "page_title": "Expanded Over-The-Counter Services | Department of Building Inspection",
+      "event_label": "/sites/default/files/Permit%20Process%20Without%20Plans.pdf",
+      "page": "sfdbi.org/expanded-over-counter-services",
+      "total_events": "103"
+    },
+    {
+      "page_title": "Citywide CBT Exam Plan | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/HR%20Professionals/Citywide%20CBT%20Exam%20Plan/Citywide%20Classification-Based%20Exam%20Plan%20-%20FY%202016-2017%20-%20Sorted%20by%20Class%20and%20Title%20-%20Revised%2010-25-16.pdf",
+      "page": "sfdhr.org/citywide-cbt-exam-plan",
+      "total_events": "101"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/2012lines.zip",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "101"
+    },
+    {
+      "page_title": "Service and Support Animals | Mayor's Office on Disability",
+      "event_label": "/mod/sites/default/files/Service%20animal%20client%20bulletin%20final%20-%20English%202016.pdf",
+      "page": "sfgov.org/mod/service-and-support-animals-1",
+      "total_events": "101"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/0931_067414_wed_0.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "101"
+    },
+    {
+      "page_title": "Affordable Rentals: 1009 Howard Street (Bill Sorro Community) | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Bill%20Sorro%20Housing%20Application.pdf",
+      "page": "sfmohcd.org/affordable-rentals-1009-Howard-street-bill-sorro-community",
+      "total_events": "98"
+    },
+    {
+      "page_title": "CCSF ePayroll – Online Paystubs | Office of the Controller",
+      "event_label": "/sites/default/files/Documents/payroll/EmploymentTaxWage2016.pdf",
+      "page": "sfcontroller.org/CCSF-EPAYROLL-–-online-paystubs",
+      "total_events": "97"
+    },
+    {
+      "page_title": "Memoranda of Understandings & Labor Agreements | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Employees/Employee%20Relations%20and%20MOUs/SEIU%20Local%201021%20Staff%20and%20Per%20Diem%20Nurses%20FINAL%20MOU%20%282016-2017%29.pdf",
+      "page": "sfdhr.org/memoranda-understanding",
+      "total_events": "97"
+    },
+    {
+      "page_title": "Benefits Overview | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Classification%20and%20Compensation/Add.%20Employee%20Pension%20Contrib.%20Per%20Prop.%20C.pdf",
+      "page": "sfdhr.org/benefits-overview",
+      "total_events": "94"
+    },
+    {
+      "page_title": "2016_AMI_RentLimits-SanFranHMFA_ForMOHsf.pdf | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/2016_AMI_RentLimits-SanFranHMFA_ForMOHsf.pdf",
+      "page": "sfmohcd.org/file/1291",
+      "total_events": "93"
+    },
+    {
+      "page_title": "District 10 | Board of Supervisors",
+      "event_label": "/sites/default/files/cohen.jpg",
+      "page": "sfbos.org/supervisor-cohen-district-10",
+      "total_events": "93"
+    },
+    {
+      "page_title": "Nov 2016_Local Candidate Guide.pdf | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/candidates/Nov%202016_Local%20Candidate%20Guide.pdf",
+      "page": "sfgov.org/elections/file/2171",
+      "total_events": "93"
+    },
+    {
+      "page_title": "Current Below Market Rental (BMR) Listings | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/Documents/MOH/Lottery%20Results/Posting%20200%20Buchanan%20-%20Alchemy%208-31-2016.pdf",
+      "page": "sfmohcd.org/current-below-market-rental-bmr-listings",
+      "total_events": "92"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/D4_8-12.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "92"
+    },
+    {
+      "page_title": "14 - Legal text - Prohibiting Tents on Public Sidewalks.pdf | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/BSC/2016%20Nov/14%20-%20Legal%20text%20-%20Prohibiting%20Tents%20on%20Public%20Sidewalks.pdf",
+      "page": "sfgov.org/elections/file/5791",
+      "total_events": "91"
+    },
+    {
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/1044_APPENG_mon.pdf",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "total_events": "91"
+    },
+    {
+      "page_title": "District & Citywide Maps | Department of Elections",
+      "event_label": "/elections/sites/default/files/D2_8-12.pdf",
+      "page": "sfgov.org/elections/district-citywide-maps",
+      "total_events": "90"
+    },
+    {
+      "page_title": "Vote by Mail | Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/VoterEducation/VBM_ReturnEnv_2016.pdf",
+      "page": "sfgov.org/elections/vote-mail",
+      "total_events": "90"
+    },
+    {
+      "page_title": "Benefits Overview | Department of Human Resources",
+      "event_label": "/sites/default/files/FileCenter/Documents/15654-Retiree%20Health%20Care%20Flow%20Charts%20and%20FAQs.pdf",
+      "page": "sfdhr.org/benefits-overview",
+      "total_events": "89"
+    },
+    {
+      "page_title": "Department of Elections",
+      "event_label": "/elections/sites/default/files/Documents/ElectionsArchives/2016/Nov/2016N_VIP_EN.pdf",
+      "page": "sfgov.org/elections/department-elections",
+      "total_events": "89"
+    },
+    {
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/0932_069608_mon.pdf",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "total_events": "89"
+    },
+    {
+      "page_title": "Past Eligible List Postings | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/0931_067414_wed_0.pdf",
+      "page": "sfdhr.org/past-eligible-list-posting",
+      "total_events": "88"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/7208_069427_fri.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "87"
+    },
+    {
+      "page_title": "District 9 | Board of Supervisors",
+      "event_label": "/sites/default/files/campos.jpg",
+      "page": "sfbos.org/supervisor-campos-district-9",
+      "total_events": "86"
+    },
+    {
+      "page_title": "Application for Inclusionary Housing Program BMR Ownership Units | Mayor's Office of Housing and Community Development",
+      "event_label": "/sites/default/files/BMR%20Ownership%20Application%20Form%20072816.pdf",
+      "page": "sfmohcd.org/APPLICATION-INCLUSIONARY-HOUSING-PROGRAM-BMR-OWNERSHIP-UNITS",
+      "total_events": "85"
+    },
+    {
+      "page_title": "Expanded Over-The-Counter Services | Department of Building Inspection",
+      "event_label": "/sites/default/files/Permit%20Process%20With%20Plans.pdf",
+      "page": "sfdbi.org/expanded-over-counter-services",
+      "total_events": "84"
+    },
+    {
+      "page_title": "Vendor Application Packet.pdf | Office of Contract Administration",
+      "event_label": "/oca/sites/default/files/Vendor%20Application%20Packet_0.pdf",
+      "page": "sfgov.org/oca/file/167",
+      "total_events": "84"
+    },
+    {
+      "page_title": "| Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Eligible%20Lists/2016/1070_070477_wed.pdf",
+      "page": "sfdhr.org/eligible-list-postings",
+      "total_events": "84"
+    },
+    {
+      "page_title": "Benefits Overview | Department of Human Resources",
+      "event_label": "/sites/default/files/documents/Classification%20and%20Compensation/Sick%20Leave%20Pay.pdf",
+      "page": "sfdhr.org/benefits-overview",
+      "total_events": "83"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-11-04T13:06:33.972Z"
+}
