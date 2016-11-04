@@ -781,3 +781,24 @@ p{
    padding:0;
    border:0;
 }
+
+.bportalfooter h3{
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #b3b3b3;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+.bportalfooter p{
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: .875em;
+    color: #b3b3b3;
+    line-height: 1.5em;
+}
+
+.bportalfooter a{
+    outline: none;
+    text-decoration: none;    
+    color: $light-blue !important;
+}
