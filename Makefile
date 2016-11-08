@@ -10,4 +10,3 @@ stage:
 deploy:
 	make production && \
     cp /home/webadmin/analytics/analytics.usa.gov/_site/* /var/www/html/analytics/ -R
-
