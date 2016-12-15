@@ -66,19 +66,17 @@ $h4-font-size:        rem(19px);
 $h5-font-size:        rem(16px);
 
 $font-light:          300;
-
+  
 @font-face {
-  font-family: 'Droid Serif';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
-  src: local('Droid Serif'), local('DroidSerif'), url(https://fonts.gstatic.com/s/droidserif/v6/0AKsP294HTD-nvJgucYTaIgp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
+  src: local("SourceSansPro"), url('https://fonts.googleapis.com/css?family=Source+Sans+Pro') format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
   
 h1, h2, h3, h4, h5 {
-  font-family: 'Droid Serif', serif;
-  color: #222;}
+  font-family: "Source Sans Pro",sans-serif;
+  color: #222; }
 
 .usa-display-alt {
   font-size: rem(44px);
@@ -140,10 +138,10 @@ form {
 body {
   font-weight: 300;
   font-size: 2rem; // USWDS override
-  color: #878787;
+  color: #222;
   background: #f9f9f9;
   margin: 0;
-  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro",sans-serif;
   line-height:1.4em;
   @include media($small-screen) {
   }
@@ -185,7 +183,7 @@ ul li:before {
 */
 
 header {
-  background: #eee;
+  background: #202020;
   color: $white;
   height: 110px;
   border-bottom: 60px solid #444;
@@ -246,7 +244,7 @@ header {
 
 .links {
   float: right;
-  margin-bottom: 0;
+  margin-top: 1em;
     @include media($medium-screen) {
       li {
         display: inline;
@@ -255,7 +253,7 @@ header {
           content: "\2022";
           padding: 0 0 0 1.6rem;
           font-weight: bold;
-          color: $light-blue;
+          color: #0077da;
         }
       }
      /* a {
@@ -336,9 +334,6 @@ section {
     margin: 10px 0;
   }
 }
-
-h2#current_visitors {
-	margin-top:25px;}
 
 #realtime {
   color: $dark-blue;
@@ -626,7 +621,7 @@ ul.pills {
 
       &[aria-selected='true'] {
         color: #fff;
-        background: $light-blue;
+        background: #0077da;
       }
     }
 
@@ -675,7 +670,7 @@ ul.pills {
 
   .bar {
     height: .8rem;
-    background: $data;
+    background: #0077da;
     position: relative;
     z-index: 2;
     min-width: 1px;
@@ -685,7 +680,7 @@ ul.pills {
 
   .label {
     white-space: nowrap;
-    height: 2.2rem;
+    height: 2.3rem;
     margin-right: 4em;
     white-space: nowrap;
     overflow: hidden;
@@ -739,7 +734,7 @@ g.axis {
 
 .time-series {
   rect {
-    fill: $data;
+    fill: #0077da;
     stroke: #fff;
     stroke-width: 1;
   }
@@ -781,8 +776,8 @@ figure figure {
 
 
 h3{
-   font-family: "Droid Serif";
-   font-size:1.75em;
+   font-family: "Source Sans Pro";
+   font-size:2rem;
    color:black;
 }
 
@@ -804,17 +799,16 @@ p{
 }
 
 .bportalfooter h3{
-    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
     color: #b3b3b3;
     line-height: 1.5em;
-    font-weight: 400;
 	text-align:left;
 }
 
 .bportalfooter p{
-    font-family: "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 1.4rem;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
 	color: #b3b3b3;
 	line-height: 2rem;
 }
@@ -822,7 +816,7 @@ p{
 .bportalfooter a{
     outline: none;
     text-decoration: none;    
-    color: $light-blue !important;
+    color: #0077da !important;
 }
 
 /**** change made after 11/22/2016 ****/
@@ -842,22 +836,17 @@ p{
 	
 #name-and-slogan img {padding:0.5em; display:block; }
 
-ul.links li {line-height: 2;}
+ul.links li {
+	line-height: 2;
+	float: right;}
   
-.visits_today h3, section h3 {padding:20px 0; text-align:center;}
+.visits_today h3, section h3 { padding: 10px 0;}
  
 .links li:nth-child(2n+1) a::after {
     content: none;
 }
 
-  /*@media screen and (max-width: 1600px) {
-    #name-and-slogan {
-    width: 22%;
-	margin:0;}}
-  @media screen and (max-width: 1200px) {
-    #name-and-slogan {
-    width: 22%;
-	margin:0; }}*/
+
   @media screen and (max-width: 992px) {
     #name-and-slogan {
     width: 200px;
@@ -877,3 +866,5 @@ ul.links li {line-height: 2;}
 	
 	@media screen and (max-width: 768px) {
   .links {padding-top:15px;} }
+  
+#top-downloads .bar-chart .label .filename, #top-downloads .bar-chart .label .domain {font-size:80%;}
