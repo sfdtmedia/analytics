@@ -827,7 +827,8 @@ p{
     position: absolute;
     top: -3px;
     transition: all 0.2s ease 0s;
-    width: 190px;	
+    width: 190px;
+    z-index: 999;
 }
 #name-and-slogan h1 {
 	color: #fff;
